@@ -4,7 +4,9 @@ module.exports = function (config, env) {
   config.merge({
     postcss: [
       require('autoprefixer'),
-      require('precss')
+      require('precss'),
+      require('postcss-assets')
+      //https://github.com/assetsjs/postcss-assets
     ],
     devtool: null
   });
