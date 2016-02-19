@@ -4,7 +4,7 @@ import sortBy from 'lodash/collection/sortBy';
 import DocumentTitle from 'react-document-title';
 import { link } from 'gatsby-helpers';
 import { rhythm, fontSizeToMS } from 'utils/typography'
-import blue from './blue.scss'
+import x from './blue.scss'
 
 export default class extends React.Component {
   static data() {
@@ -39,7 +39,7 @@ export default class extends React.Component {
       <DocumentTitle title={this.props.config.blogTitle}>
         <div>
             index start
-          <p className={blue.blue}>
+          <p className={x.blue}>
             <img
               src="./kyle-round-small-pantheon.jpg"
               style={{
