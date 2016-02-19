@@ -3,7 +3,8 @@ import { RouteHandler, Link } from 'react-router';
 import { Container, Grid, Breakpoint, Span } from 'react-responsive-grid';
 import { link } from 'gatsby-helpers';
 import { rhythm, fontSizeToMS } from 'utils/typography'
-
+import NavBar from 'components/NavBar';
+import BackgroundImage from 'components/BackgroundImage';
 import '../css/styles.css';
 
 export default class extends React.Component {
@@ -51,6 +52,7 @@ export default class extends React.Component {
           padding: `${rhythm(2)} ${rhythm(1/2)}`
         }}
       >
+        <BackgroundImage/>
         template start
         {header}
         <Link

@@ -69,7 +69,7 @@ module.exports = React.createClass({
                 width: `calc(${rhythm(8)} - 1px)`,
                 borderRight: '1px solid lightgrey'
               }}
-            >
+            >afasfsfsaaaaaaaaa
               <ul
                 style={{
                   listStyle: 'none',
