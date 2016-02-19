@@ -1,7 +1,6 @@
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = function (config, env) {
-  config.removeLoader('scss');
   config.merge({
     postcss: [
       require('autoprefixer'),
@@ -31,9 +30,25 @@ module.exports = function (config, env) {
     config.devtool =  'cheap-module-inline-source-map';
   }
 
+  config.loader('png', function (cfg) {
+    cfg.test = /\.png/;
+    cfg.exclude = /node_modules/;
+    cfg.loader = 'url-loader?limit=10000';
+    return cfg
+  });
+
+  config.loader('jpg', function (cfg) {
+    cfg.test = /\.jpg/;
+    cfg.exclude = /node_modules/;
+    cfg.loader = 'url-loader?limit=10000';
+    return cfg
+  });
+
+
   config.plugin('extract-css',
     ExtractTextPlugin,
     ["yellow.css", { allChunks: true }]);
+
 
   return config;
 };
