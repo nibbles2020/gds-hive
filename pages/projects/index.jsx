@@ -19,6 +19,7 @@ export default class extends React.Component {
       let ref;
       return (ref = page.data) != null ? ref.date : void 0;
     }).reverse();
+    console.log('.............',ref);
     //for (i = 0, len = ref.length; i < len; i++) {
     //  page = ref[i];
     //  title = ((ref1 = page.data) != null ? ref1.title : void 0) || page.path;
@@ -35,7 +36,6 @@ export default class extends React.Component {
     //    );
     //  }
     //}
-    console.log(this.props);
     return (
       <DocumentTitle title={this.props.config.blogTitle}>
         <div>

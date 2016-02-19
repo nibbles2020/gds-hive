@@ -6,6 +6,7 @@ import sortBy from 'lodash/collection/sortBy';
 import { link, templateChildrenPages } from 'gatsby-helpers';
 
 import typography from 'utils/typography';
+import _ from 'lodash';
 const { rhythm, fontSizeToPx } = typography;
 
 module.exports = React.createClass({
@@ -16,15 +17,21 @@ module.exports = React.createClass({
   },
 
   render: function() {
-    console.log(this.props);
     //var childPages, docOptions, docPages;
-    //childPages = templateChildrenPages(__filename, this.props.state).map(function(child) {
-    //  return {
-    //    title: child.data.title,
-    //    order: child.data.order,
-    //    path: child.path
-    //  };
-    //});
+    console.log('state...........', this.props.state);
+    const childPages = templateChildrenPages(__filename, this.props.state).filter(function(child) {
+      const split = child.path.split('/');
+      _.pop(_.shift(split));
+      split.pop();
+      console.log(child.path, split);
+
+      return {
+        //title: child.data.title,
+        //order: child.data.order,
+        path: child.path
+      };
+    });
+    //console.log(childPages);
     //childPages = sortBy(childPages, function(child) {
     //  return child.order;
     //});
@@ -83,7 +90,7 @@ module.exports = React.createClass({
             </div>
             <div
               style={{
-                padding: `0 ${rhythm(1)}`,
+                padding: `0 ${rhythm(1)}`,ruby
                 paddingLeft: `calc(${rhythm(8)} + ${rhythm(1)})`
               }}
             >

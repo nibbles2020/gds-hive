@@ -6,7 +6,8 @@ module.exports = function (config, env) {
     postcss: [
       require('autoprefixer'),
       require('precss')
-    ]
+    ],
+    devtool: null
   });
 
   if (env === 'static') {
@@ -27,6 +28,7 @@ module.exports = function (config, env) {
       cfg.loader = 'style!css?modules&localIdentName=[path][name]-[local]-[hash:base64:5]&importLoaders=1!postcss';
       return cfg
     });
+    config.devtool =  'cheap-module-inline-source-map';
   }
 
   config.plugin('extract-css',
