@@ -2,8 +2,9 @@ import React from 'react';
 import { RouteHandler, Link, State, Navigation } from 'react-router';
 import { Container, Grid, Breakpoint, Span } from 'react-responsive-grid';
 import Typography from 'typography';
-import sortBy from 'lodash/collection/sortBy';
+import _ from 'lodash';
 import { link, templateChildrenPages } from 'gatsby-helpers';
+import { config } from 'config'
 
 import typography from 'utils/typography';
 const { rhythm, fontSizeToPx } = typography;
@@ -24,7 +25,7 @@ module.exports = React.createClass({
         path: child.path
       };
     });
-    childPages = sortBy(childPages, function(child) {
+    childPages = _.sortBy(childPages, function(child) {
       return child.order;
     });
     docOptions = childPages.map(function(child) {
@@ -53,7 +54,7 @@ module.exports = React.createClass({
               {isActive ? <strong>{child.title}</strong> : child.title }
             </Link>
           </li>
-        )
+        );
       };
     })(this));
 
@@ -69,7 +70,7 @@ module.exports = React.createClass({
                 width: `calc(${rhythm(8)} - 1px)`,
                 borderRight: '1px solid lightgrey'
               }}
-            >afasfsfsaaaaaaaaa
+            >
               <ul
                 style={{
                   listStyle: 'none',

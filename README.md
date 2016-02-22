@@ -1,5 +1,17 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# gds-hive
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
+GDS Hive landing page.
+
+## Install
+
+    npm install -g gatsby
+    npm install
+
+## Develop
+
+    gatsby develop
+
+## Build
+
+    gatsby build
+

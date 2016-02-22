@@ -23,7 +23,8 @@
     "autoprefixer": "^6.3.3",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
-    "lodash": "^3.10.1",
+    "gatsby": "^0.8.3",
+    "lodash": "^4.5.1",
     "moment": "^2.10.3",
     "postcss": "^5.0.16",
     "postcss-assets": "^4.0.1",
@@ -33,9 +34,11 @@
     "react-document-title": "^2.0.1",
     "react-dom": "^0.14.3",
     "react-responsive-grid": "^0.3.0",
-    "react-router": "^0.13.5",
-    "typography": "^0.6.2",
+    "react-router": "^2.0.0",
+    "react-transform": "0.0.3",
+    "typography": "^0.7.0",
     "underscore.string": "^3.2.2",
-    "url-loader": "^0.5.7"
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13"
   }
 }
