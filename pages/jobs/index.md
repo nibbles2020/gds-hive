@@ -1,6 +1,6 @@
 ---
 title: Index
-order: 1
+schedule: Full-time
+status: Permanent
 ---
-
-Index
+Jobs jobs jobs

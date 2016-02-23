@@ -11,7 +11,6 @@ export default (props) => {
 
   return (
     <div>
-      <div>md</div>
       <DocumentTitle title={post.title}>
         <div className="markdown">
           <h1>{post.title}</h1>

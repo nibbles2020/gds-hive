@@ -22,17 +22,23 @@ export default (props) => {
 
   return (
     <DocumentTitle title={config.blogTitle}>
-      <div>
-        <p>Jobs Index</p>
-        <div className="job-selector">
-          <ul>{jobsList}</ul>
+      <div className={styles["jobs-page"]}>
+        <div className={styles["jobs-copy"]}>
+          <p>Jobs Index</p>
         </div>
-        <div className="job-listing">
-          {props.children}
+
+        <div className={styles["job-listings"]}>
+          <div className={styles["job-selector"]}>
+            <ul>{jobsList}</ul>
+          </div>
+          <div className={styles["job-description"]}>
+            {props.children}
+            <div>
+              <a href={config.resumeMailAddress}>$EMAIL_US_COPY_OR_BUTTON</a>
+            </div>
+          </div>
         </div>
       </div>
     </DocumentTitle>
   );
 };
-
-
