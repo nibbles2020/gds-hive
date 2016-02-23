@@ -1,24 +1,21 @@
 {
-  "name": "gatsby-starter-blog",
-  "version": "1.0.0",
-  "description": "Starter Gatsby Blog",
+  "name": "gds-hive",
+  "version": "0.0.1",
+  "description": "GDS Hive Landing Page",
   "main": "n/a",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/kiahwee/gds-hive.git"
   },
   "keywords": [
     "gatsby"
   ],
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "GDS Singapore",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/kiahwee/gds-hive/issues"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/kiahwee/gds-hive",
   "dependencies": {
     "autoprefixer": "^6.3.3",
     "extract-text-webpack-plugin": "^1.0.1",
@@ -36,6 +33,7 @@
     "react-responsive-grid": "^0.3.0",
     "react-router": "^2.0.0",
     "react-transform": "0.0.3",
+    "safe-access": "^0.1.0",
     "typography": "^0.7.0",
     "underscore.string": "^3.2.2",
     "url-loader": "^0.5.7",

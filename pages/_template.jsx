@@ -7,23 +7,20 @@ import { link } from 'gatsby-helpers';
 const Template = (props) => {
   const { children } = props;
 
-  const header = (
-    <div>
-      <Link
-        style={{
-          textDecoration: 'none',
-          color: 'inherit'
-        }}
-        to={link('docs/')}
-      >
-        {config.blogTitle}
-      </Link>
-    </div>
-  );
+  const linkDefinitions = [
+    { href: '/', title: config.blogTitle },
+    { href: '/jobs/', title: 'Jobs' },
+    { href: '/projects/', title: 'Projects' }
+  ];
+
+  const linkFactory = (l) => {
+    return <Link to={link(l.href)}>{l.title}</Link>;
+  };
+  const links = <div>{linkDefinitions.map(linkFactory)}</div>;
 
   return (
     <div>
-      {header}
+      {links}
       <div>children start</div>
       {children}
       <div>children end</div>

@@ -4,14 +4,13 @@ GDS Hive landing page.
 
 ## Install
 
-    npm install -g gatsby
     npm install
 
 ## Develop
 
-    gatsby develop
+    npm run dev
 
 ## Build
 
-    gatsby build
+    npm run build
 
