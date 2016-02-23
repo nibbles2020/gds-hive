@@ -1,0 +1,14 @@
+.wrapper {
+  width: 200px;
+  height: 200px;
+  margin: 1rem;
+  filter: grayscale(100%);
+
+  &:hover{
+    filter: grayscale(0%);
+  }
+}
+
+.image {
+  margin: 0px;
+}

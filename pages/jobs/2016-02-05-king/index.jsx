@@ -14,7 +14,7 @@ module.exports = React.createClass({
 
   render: function() {
     return (
-      <DocumentTitle title={`${module.exports.metadata().title} | ${this.props.config.siteTitle}`}>
+      <DocumentTitle title='lol'>
         <div>
           <h1>Some React Code</h1>
           <p>

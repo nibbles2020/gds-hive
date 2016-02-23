@@ -1,6 +1,7 @@
 ---
 title: The Next Step
 order: 3
+thumbnail: test.jpg
 ---
 
 ## Basically do this
