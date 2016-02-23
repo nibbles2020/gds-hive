@@ -8,10 +8,10 @@ import md from 'wrappers/md.jsx';
 
 function getJobs(pages) {
   return pages
-    .filter((page) => access(page, 'file.ext') === 'md')
+    .filter((page) => access(page, 'file.ext') === 'md' || access(page, 'file.ext') === 'jsx')
     .filter((page) => page.path.includes('/jobs/'))
     .filter((page) => !page.requirePath.includes('jobs/index.md'))
-    .sort((a, b) => (a.order || 0) - (b.order || 0));
+    .sort((a, b) => (access(a, 'data.order') || 0) - (access(b, 'data.order') || 0));
 }
 
 const JobsTemplate = (props) => {

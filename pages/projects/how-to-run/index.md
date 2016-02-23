@@ -1,6 +1,7 @@
 ---
 title: How to Run
 order: 2
+thumbnail: test.jpg
 ---
 
 Mostly you need to move your legs and arms together in coordinated
