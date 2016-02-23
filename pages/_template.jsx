@@ -13,17 +13,20 @@ const Template = (props) => {
     { href: '/projects/', title: 'Projects' }
   ];
 
-  const linkFactory = (l) => {
-    return <Link to={link(l.href)}>{l.title}</Link>;
-  };
-  const links = <div>{linkDefinitions.map(linkFactory)}</div>;
+  const links = (
+    <div>
+      {
+        linkDefinitions.map((l) => {
+          return <Link to={link(l.href)} key={l.href}>{l.title}</Link>;
+        })
+      }
+    </div>
+  );
 
   return (
     <div>
       {links}
-      <div>children start</div>
       {children}
-      <div>children end</div>
     </div>
   );
 };

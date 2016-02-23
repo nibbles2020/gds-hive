@@ -1,4 +1,4 @@
 blogTitle = "Singapore Government Digital Services"
 authorName = "GDS"
 linkPrefix = "/gds-hive"
-resumeMailAddress = "example@example.com"
+resumeMailAddress = "mailto:example@example.com"

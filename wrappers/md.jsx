@@ -1,7 +1,5 @@
 import React from 'react';
-import moment from 'moment';
 import DocumentTitle from 'react-document-title';
-// import { link } from 'gatsby-helpers';
 
 import '../css/zenburn.css';
 
