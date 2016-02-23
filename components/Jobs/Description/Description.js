@@ -7,7 +7,7 @@ export default (props) => {
     <div className={props.className}>
       {props.render}
       <div>
-        <a href={config.resumeMailAddress}>$EMAIL_US_COPY_OR_BUTTON</a>
+        <a href={config.resumeMailAddress}>Drop us an email</a>
       </div>
     </div>
   );

@@ -14,6 +14,10 @@ function getJobs(pages) {
     .sort((a, b) => (access(a, 'data.order') || 0) - (access(b, 'data.order') || 0));
 }
 
+function isIndex(props) {
+  return access(props, 'children.props.route.page.requirePath') === 'jobs/index.md';
+}
+
 const JobsTemplate = (props) => {
   const jobs = getJobs(props.route.pages);
 
@@ -25,17 +29,18 @@ const JobsTemplate = (props) => {
     }
   };
 
-  // Used to highlight job selector link, props.children is null on root
-  if (jobs.length > 0) {
-    jobs[0].isDefault = !props.children;
-  }
+  // Loads highest ordered job posting if on root (ie. /jobs/)
+  const children = isIndex(props) ? md(defaultPage) : props.children;
 
-  const children = props.children || md(defaultPage);
+  // Used to highlight job selector link
+  if (jobs.length > 0) {
+    jobs[0].isDefault = isIndex(props);
+  }
 
   return (
     <DocumentTitle title={config.blogTitle}>
-      <div className={styles["jobs-page"]}>
-        <div className={styles["jobs-copy"]}>
+      <div className={styles['jobs-page']}>
+        <div className={styles['jobs-copy']}>
           <p>Singapore is aspiring to be not just a Smart City, but a Smart Nation, underpinned by Data and Analytics. As a leading organisation and Singapore's Government CIO, IDA is taking a clear leadership role in building Singapore into a Smart Nation. We welcome interested professionals to join us in this journey.</p>
         </div>
 

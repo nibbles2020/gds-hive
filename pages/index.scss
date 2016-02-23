@@ -1,0 +1,30 @@
+.header {
+  font-size: 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #666;
+
+  &:after {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3em;
+    height: 0.2em;
+    background: #fed00f;
+    content: '';
+    margin-top: 0.5em;
+  }
+}
+
+.body-text {
+  font-size: 1.25em;
+  font-family: Garamond;
+  text-align: center;
+  color: #666;
+}
+
+.center {
+  text-align: center;
+}
