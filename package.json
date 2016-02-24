@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/kiahwee/gds-hive.git"
   },
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
   "keywords": [
     "gatsby"
   ],
@@ -39,5 +42,8 @@
     "url": "^0.11.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.13"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.10.0"
   }
 }
