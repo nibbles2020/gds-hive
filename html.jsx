@@ -20,7 +20,7 @@ export default class Html extends React.Component {
           <meta name='viewport' content='user-scalable=no width=device-width, initial-scale=1.0 maximum-scale=1.0'/>
           <title>{this.props.title}</title>
           <link rel="shortcut icon" href={this.props.favicon}/>
-          <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css"/>
+          <link rel="stylesheet" href="//cdn.rawgit.com/konpa/devicon/master/devicon.min.css" />
           <link rel="stylesheet" type="text/css" href={link('/yellow.css')} />
           <TypographyStyle/>
           <style dangerouslySetInnerHTML={{__html:
