@@ -7,15 +7,9 @@ import { rhythm } from 'utils/typography';
 const Template = (props) => {
   const { children } = props;
 
-  const links = [
-    { href: '/', title: config.blogTitle },
-    { href: '/jobs/', title: 'Jobs' },
-    { href: '/projects/', title: 'Projects' }
-  ];
-
   return (
     <div>
-      <NavBar links={links} />
+      <NavBar links={config.navLinks} />
       <Container
         style={{
           maxWidth: rhythm(32),
