@@ -14,3 +14,6 @@ GDS Hive landing page.
 
     npm run build
 
+## Lint
+
+    npm run eslint

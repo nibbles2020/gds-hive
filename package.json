@@ -8,7 +8,8 @@
     "url": "git+https://github.com/kiahwee/gds-hive.git"
   },
   "scripts": {
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public",
+    "eslint": "eslint .; exit 0;"
   },
   "keywords": [
     "gatsby"
@@ -44,6 +45,9 @@
     "webpack": "^1.12.13"
   },
   "devDependencies": {
-    "gh-pages": "^0.10.0"
+    "gh-pages": "^0.10.0",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "eslint-plugin-react": "^4.1.0"
   }
 }
