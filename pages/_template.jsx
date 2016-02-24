@@ -1,38 +1,27 @@
 import React from 'react';
 import { config } from 'config';
 import { Container } from 'react-responsive-grid';
-import { Link } from 'react-router';
-import { link } from 'gatsby-helpers';
-import HeroImage from 'components/HeroImage';
+import NavBar from 'components/NavBar';
 import { rhythm } from 'utils/typography';
 
 const Template = (props) => {
   const { children } = props;
 
-  const linkDefinitions = [
+  const links = [
     { href: '/', title: config.blogTitle },
     { href: '/jobs/', title: 'Jobs' },
     { href: '/projects/', title: 'Projects' }
   ];
 
-  const links = (
-    <div>
-      {
-        linkDefinitions.map((l) => <Link to={link(l.href)} key={l.href}>{l.title}</Link>)
-      }
-    </div>
-  );
-
   return (
     <div>
-      <HeroImage />
+      <NavBar links={links} />
       <Container
         style={{
           maxWidth: rhythm(32),
           padding: `${rhythm(2)} ${rhythm(1 / 2)}`
         }}
       >
-        {links}
         {children}
       </Container>
     </div>

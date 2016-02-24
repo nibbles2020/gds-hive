@@ -1,4 +1,21 @@
-.blue{
-  background-color: orange;
-  border-style: solid;
+.bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.links {
+  display: flex;
+}
+
+.link {
+  padding: 1rem 2rem;
+  color: #eee;
+
+  &:hover {
+    text-decoration: none;
+    background-color: #333;
+  }
 }

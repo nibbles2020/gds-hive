@@ -21,6 +21,7 @@ export default class Html extends React.Component {
           <title>{this.props.title}</title>
           <link rel="shortcut icon" href={this.props.favicon}/>
           <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css"/>
+          <link rel="stylesheet" type="text/css" href={link('/yellow.css')} />
           <TypographyStyle/>
           <style dangerouslySetInnerHTML={{__html:
             `
