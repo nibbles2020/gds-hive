@@ -5,15 +5,15 @@ import JobDescription from './Description/Description.js';
 
 const Jobs = (props) => {
   return (
-    <div className={styles["job-listings"]}>
+    <div className={styles['job-listings']}>
       <JobSelector
-        className={styles["job-selector"]}
+        className={styles['job-selector']}
         list={props.jobs}
         {...props}
       />
 
       <JobDescription
-        className={styles["job-description"]}
+        className={styles['job-description']}
         render={props.render}
         {...props}
       />

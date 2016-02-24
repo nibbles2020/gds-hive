@@ -2,12 +2,14 @@ import React from 'react';
 import styles from './index.scss';
 import { config } from 'config';
 import DocumentTitle from 'react-document-title';
+import HeroImage from 'components/HeroImage';
 import TechIcon from 'components/TechIcon';
 
 export default () =>
   (
     <DocumentTitle title={config.blogTitle}>
       <div>
+        <HeroImage />
           index start
         <div className={styles.section}>
           <h1 className={styles.header}> Mission </h1>

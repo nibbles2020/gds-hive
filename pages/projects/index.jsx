@@ -58,7 +58,12 @@ export default (props) => {
       const title = access(page, 'data.title') || page.path;
       console.log(page)
       return (
-        <GalleryItem key={link(page.path)} path={link(page.path)} imgPath={URL.resolve(page.path, page.data.thumbnail)} caption={page.data.title}/>
+        <GalleryItem
+          key={link(page.path)}
+          path={link(page.path)}
+          imgPath={link(URL.resolve(page.path, page.data.thumbnail))}
+          caption={page.data.title}
+        />
       );
     });
 

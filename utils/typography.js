@@ -5,16 +5,16 @@ const options = {
   baseLineHeight: '27px',
   modularScales: [
     {
-      "scale": "minor third"
+      'scale': 'minor third'
     }
   ]
-}
+};
 
-const typography = new Typography(options)
+const typography = new Typography(options);
 
 // Hot reload typography in development.
-if (process.env.NODE_ENV !== "production") {
-  typography.injectStyles()
+if (process.env.NODE_ENV !== 'production') {
+  typography.injectStyles();
 }
 
-export default typography
+export default typography;

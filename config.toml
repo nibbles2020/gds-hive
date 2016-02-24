@@ -2,3 +2,15 @@ blogTitle = "GDS-HIVE"
 authorName = "GDS"
 linkPrefix = "/gds-hive"
 resumeMailAddress = "mailto:hiring@ida-gds.com"
+
+[[navLinks]]
+href = "/"
+title = "GDS-HIVE"
+
+[[navLinks]]
+href = "/jobs/"
+title = "Jobs"
+
+[[navLinks]]
+href = "/projects/"
+title = "Projects"
