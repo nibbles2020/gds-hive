@@ -12,9 +12,9 @@ export default (props) => {
       const liClass = isCurrent ? styles.current : '';
 
       return (
-        <li className={liClass} key={page.path}>
-          <Link to={link(page.path)}>{title}</Link>
-        </li>
+        <Link to={link(page.path)}>
+          <li className={liClass} key={page.path}>{title}</li>
+        </Link>
       );
     });
 

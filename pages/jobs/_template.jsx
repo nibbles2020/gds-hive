@@ -40,7 +40,9 @@ const JobsTemplate = (props) => {
   return (
     <DocumentTitle title={config.blogTitle}>
       <div className={styles['jobs-page']}>
+        <h1>Jobs</h1>
         <div className={styles['jobs-copy']}>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/bpvdDl6KHVQ" frameborder="0" allowfullscreen></iframe>
           <p>Singapore is aspiring to be not just a Smart City, but a Smart Nation, underpinned by Data and Analytics. As a leading organisation and Singapore's Government CIO, IDA is taking a clear leadership role in building Singapore into a Smart Nation. We welcome interested professionals to join us in this journey.</p>
         </div>
 

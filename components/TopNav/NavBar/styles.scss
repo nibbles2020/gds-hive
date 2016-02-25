@@ -1,13 +1,11 @@
 .bar {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto;
   background-color: black;
 }
 
 .links {
   display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .link {

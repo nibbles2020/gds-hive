@@ -1,43 +1,3 @@
-// import React from 'react';
-// import '../css/styles.css';
-// import { config } from 'config';
-// import { Link } from 'react-router';
-// import { link } from 'gatsby-helpers';
-
-// const Template = (props) => {
-//   const { children } = props;
-
-//   const linkDefinitions = [
-//     { href: '/', title: config.blogTitle },
-//     { href: '/jobs/', title: 'Jobs' },
-//     { href: '/projects/', title: 'Projects' }
-//   ];
-
-//   const linkFactory = (l) => {
-//     return <Link to={link(l.href)}>{l.title}</Link>;
-//   };
-//   const links = <div>{linkDefinitions.map(linkFactory)}</div>;
-
-//   return (
-//     <div>
-//       {links}
-//       <div>children start</div>
-//       {children}
-//       <div>children end</div>
-//     </div>
-//   );
-// };
-
-// Template.propTypes = {
-//   children: React.PropTypes.any,
-//   location: React.PropTypes.object,
-//   route: React.PropTypes.object
-// };
-
-// export default Template;
-
-
-
 import React from 'react';
 import { Link } from 'react-router';
 import sortBy from 'lodash/sortBy';
@@ -56,7 +16,6 @@ export default (props) => {
     .filter((page) => page.path.includes('/projects/'))
     .map((page) => {
       const title = access(page, 'data.title') || page.path;
-      console.log(page)
       return (
         <GalleryItem
           key={link(page.path)}
@@ -78,8 +37,3 @@ export default (props) => {
     </DocumentTitle>
   );
 };
-
-
-//<div className="projects-list">
-//  <ul>{projectsList}</ul>
-//</div>
