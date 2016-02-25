@@ -1,15 +1,14 @@
 import React from 'react';
 import { config } from 'config';
 import { Container } from 'react-responsive-grid';
-import NavBar from 'components/NavBar';
+import TopNav from 'components/TopNav';
 import { rhythm } from 'utils/typography';
 
 const Template = (props) => {
-  const { children } = props;
-
+  const { children, location } = props;
   return (
     <div>
-      <NavBar links={config.navLinks} />
+      <TopNav {...location}/>
       <Container
         style={{
           maxWidth: rhythm(32),

@@ -1,0 +1,28 @@
+.gdsbackground {
+  align-items: center;
+  background: url('components/TopNav/HeroImage/background.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.links {
+  width: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.link {
+  padding: 1rem 2rem;
+  color: #eee;
+
+  &:hover {
+    text-decoration: none;
+    background-color: #333;
+  }
+}

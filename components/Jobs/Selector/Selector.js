@@ -8,7 +8,7 @@ export default (props) => {
   const list = props.list
     .map((page) => {
       const title = access(page, 'data.title') || page.path;
-      const isCurrent = page.isDefault || page.path === props.location.pathname;
+      const isCurrent = page.isDefault || link(page.path) === props.location.pathname;
       const liClass = isCurrent ? styles.current : '';
 
       return (

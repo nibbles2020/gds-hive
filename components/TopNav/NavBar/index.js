@@ -3,11 +3,11 @@ import styles from './styles.scss';
 import { Link } from 'react-router';
 import { link } from 'gatsby-helpers';
 
-const NavBar = (props) => {
-  const links = (
+const NavBar = ({links}) => {
+  const renderLinks = (
     <div className={styles.links}>
       {
-        props.links.map((l) =>
+        links.map((l) =>
           (
             <Link to={link(l.href)} key={l.href} className={styles.link}>
               {l.title}
@@ -18,7 +18,7 @@ const NavBar = (props) => {
     </div>
   );
 
-  return <div className={styles.bar}>{links}</div>;
+  return <div className={styles.bar}>{renderLinks}</div>;
 };
 
 NavBar.propTypes = {
