@@ -65,6 +65,7 @@
   padding: calc(1rem + 3.5px) 2rem 1rem 2rem;
   color: #eee;
   composes: dotted-hover;
+  user-select: none;
 }
 
 .current {
