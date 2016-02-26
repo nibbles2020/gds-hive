@@ -12,5 +12,10 @@ href = "/projects/"
 title = "Projects"
 
 [[navLinks]]
+href = "https://medium.com/singapore-gds/"
+title="Blog"
+external=true
+
+[[navLinks]]
 href = "/"
 title = "GDS-HIVE"

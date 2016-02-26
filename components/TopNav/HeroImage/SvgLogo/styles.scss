@@ -1,12 +1,17 @@
 .logo-container {
-  padding: 1em;
+  margin: auto;
+  width: 100%;
 
   .logo {
-    display: block;
-    margin: 2em auto;
+    // display: block;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-height: 50vh;
+    width: 60vw;
 
     &.definition {
-      padding-left: 10px;
+      margin: 2em auto 0 auto;
     }
   }
 }

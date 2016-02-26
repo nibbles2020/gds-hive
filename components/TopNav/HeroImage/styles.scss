@@ -1,20 +1,59 @@
+.dotted {
+  cursor: pointer;
+  text-decoration: none;
+
+  &:after {
+    position: relative;
+    bottom: 0;
+    content: "";
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    background: #eee;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+  }
+}
+
+.dotted-hover {
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+
+    &:after {
+      position: relative;
+      bottom: 0;
+      content: "";
+      margin: 0 auto;
+      width: 100%;
+      display: block;
+      background: #eee;
+      width: 7px;
+      height: 7px;
+      border-radius: 100%;
+    }
+  }
+}
+
 .gdsbackground {
   align-items: center;
   background: url('components/TopNav/HeroImage/background.png') no-repeat center center fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
+  height: auto;
+}
+
+.fullsize {
+  height: 100vh;
 }
 
 .links {
   width: 100%;
-  top: 0;
-  right: 0;
   display: flex;
   justify-content: flex-end;
-  position: absolute;
+  align-items: baseline;
 }
 
 .link {
@@ -22,22 +61,12 @@
   font-size: 0.9em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 1rem 2rem;
+  margin-top: 0.3rem;
+  padding: calc(1rem + 3.5px) 2rem 1rem 2rem;
   color: #eee;
+  composes: dotted-hover;
+}
 
-  &:hover {
-    cursor: pointer;
-    text-decoration: none;
-
-    &:after {
-        content: "";
-        margin: 5px auto;
-        width: 100%;
-        display: block;
-        background: #eee;
-        width: 7px;
-        height: 7px;
-        border-radius: 100%;
-    }
-  }
+.current {
+  composes: dotted;
 }
