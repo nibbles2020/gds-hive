@@ -1,21 +1,30 @@
-.bar {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto;
-  background-color: black;
-}
-
 .links {
   display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .link {
+  font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   padding: 1rem 2rem;
-  color: #eee;
+  color: #999;
 
   &:hover {
+    cursor: pointer;
     text-decoration: none;
-    background-color: #333;
+
+    &:after {
+      content: "";
+      margin: 5px auto;
+      width: 100%;
+      display: block;
+      background: #999;
+      width: 7px;
+      height: 7px;
+      border-radius: 100%;
+    }
   }
 }

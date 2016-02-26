@@ -21,7 +21,7 @@ export default () =>
   (
     <DocumentTitle title={config.blogTitle}>
       <div>
-        index start
+          index start
         <div>
           <h1 className={styles.header}> Mission </h1>
 
@@ -60,8 +60,6 @@ export default () =>
           <div> after</div>
 
         </div>
-
       </div>
     </DocumentTitle>
   );
-
