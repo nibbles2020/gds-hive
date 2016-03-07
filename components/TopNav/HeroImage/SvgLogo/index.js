@@ -4,7 +4,7 @@ import styles from './styles.scss';
 export default () =>
   (
     <div className={styles['logo-container']}>
-      <svg className={styles.logo} width="300px" height="340px" viewBox="0 0 300 340" version="1.1">
+      <svg className={styles.logo} viewBox="0 0 300 340" version="1.1">
         <g stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
           <g transform="translate(-574.000000, -166.000000)">
             <g transform="translate(577.000000, 170.000000)" stroke="#FFFFFF" strokeWidth="2.1">

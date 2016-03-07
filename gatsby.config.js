@@ -3,11 +3,14 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = function (config, env) {
   config.merge({
     postcss: [
-      require('autoprefixer'),
       require('precss'),
-      require('postcss-assets')
+      require('postcss-import')(),
+      require('postcss-url')(),
+      require('postcss-cssnext')({
+        browsers: 'last 2 versions',
+      })
     ],
-    devtool: null
+    devtool: env === 'prod' ? null : 'cheap-module-inline-source-map'
   });
 
   config.loader('png', function (cfg) {
