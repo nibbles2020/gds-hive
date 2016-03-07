@@ -1,7 +1,7 @@
 import React from 'react';
 import DocumentTitle from 'react-document-title';
 
-import '../css/zenburn.css';
+import '../scss/zenburn.css';
 
 export default (props) => {
   const { route } = props;

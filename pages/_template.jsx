@@ -3,20 +3,14 @@ import { config } from 'config';
 import { Container } from 'react-responsive-grid';
 import TopNav from 'components/TopNav';
 import { rhythm } from 'utils/typography';
+import '../scss/variables.scss';
 
 const Template = (props) => {
   const { children, location } = props;
   return (
     <div>
       <TopNav {...location}/>
-      <Container
-        style={{
-          maxWidth: rhythm(32),
-          padding: `${rhythm(2)} ${rhythm(1 / 2)}`
-        }}
-      >
-        {children}
-      </Container>
+      {children}
     </div>
   );
 };

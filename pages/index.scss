@@ -1,5 +1,5 @@
 .header {
-  font-size: 1.2em;
+  font-size: 2.2rem;
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
@@ -8,20 +8,19 @@
   &:after {
     display: block;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 3em;
-    height: 0.2em;
+    margin: 2rem auto;
+    width: 6rem;
+    height: 0.4rem;
     background: #fed00f;
     content: '';
-    margin-top: 0.5em;
   }
 }
 
 .body-text {
-  font-size: 1.25em;
-  font-family: Garamond;
+  font-size: 2.3rem;
+  font-family: "Garamond", serif;
   text-align: center;
+  line-height: normal;
   color: #666;
 }
 
@@ -29,10 +28,10 @@
   text-align: center;
 }
 
-.section {
-  padding: 5em 0;
-}
-
 .color-background {
   background-color: #f4f4f4;
+}
+
+.section {
+  composes: section from '../scss/variables.scss';
 }
