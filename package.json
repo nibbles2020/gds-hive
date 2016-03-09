@@ -43,6 +43,7 @@
     "react-router": "^2.0.0",
     "react-transform": "0.0.3",
     "safe-access": "^0.1.0",
+    "svg-inline-loader": "^0.4.1",
     "typography": "^0.7.0",
     "underscore.string": "^3.2.2",
     "url": "^0.11.0",

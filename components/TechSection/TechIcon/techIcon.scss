@@ -11,4 +11,8 @@
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
+
+  &:hover {
+    transform: scale(1.2,1.2);
+  }
 }

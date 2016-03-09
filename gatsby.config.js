@@ -27,6 +27,13 @@ module.exports = function (config, env) {
     return cfg;
   });
 
+  config.loader('svg', function (cfg) {
+    cfg.test = /\.svg$/;
+    cfg.exclude = /node_modules/;
+    cfg.loader = 'url?limit=10000';
+    return cfg;
+  });
+
   if (env === 'static') {
     config.loader('sass', function (cfg) {
       cfg.test = /\.scss$/;

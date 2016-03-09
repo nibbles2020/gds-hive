@@ -35,3 +35,7 @@
 .section {
   composes: section from '../scss/variables.scss';
 }
+
+.bgcolor {
+  composes: bgcolor from '../scss/variables.scss';
+}
