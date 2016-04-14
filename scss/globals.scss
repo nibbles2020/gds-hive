@@ -12,7 +12,13 @@ body {
 
 html {
   font-size: 62.5%;
-  font-family: Palatino, serif;
+  font-family: Palatino, Georgia, serif;
+  font-weight: 200;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Catamaran';
+  font-weight: 500;
 }
 
 a {
@@ -22,6 +28,6 @@ a {
 }
 
 .page {
-  padding: 0 $page-padding $page-padding;
+  padding: calc($page-padding / 3) $page-padding $page-padding;
   max-width: $max-page-width;
 }
