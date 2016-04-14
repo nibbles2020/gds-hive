@@ -3,6 +3,7 @@ import styles from './index.scss';
 import { config } from 'config';
 import DocumentTitle from 'react-document-title';
 import TechSection from 'components/TechSection';
+import ContactSection from 'components/ContactSection';
 import variables from '../scss/variables.scss';
 
 export default () =>
@@ -38,6 +39,7 @@ export default () =>
             />
           </div>
         </div>
+        <ContactSection/>
       </div>
     </DocumentTitle>
   );
