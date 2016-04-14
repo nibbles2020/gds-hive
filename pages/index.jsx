@@ -38,7 +38,7 @@ export default () =>
                 'devicon-docker-plain',
                 'devicon-angularjs-plain',
                 'devicon-amazonwebservices-original',
-                'hadoop',
+                'hadoop'
               ]}
             />
           </div>
