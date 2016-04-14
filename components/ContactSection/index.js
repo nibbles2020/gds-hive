@@ -40,6 +40,12 @@ export default () =>
           Bus: 74, 91, 92, 95, 191, 196, 198, 200<br />
           Drivers may park their cars at Galaxis or Fusionopolis. Sandcrawler does not provide parking for visitors.
         </div>
+
+        <div>
+          <a href="https://github.com/idagds/">Github</a><br />
+          {/*<a href="https://www.linkedin.com/company/ida-singapore">LinkedIn</a><br />*/}
+          <a href="https://medium.com/singapore-gds/">Medium</a>
+        </div>
       </div>
     </div>
   );
