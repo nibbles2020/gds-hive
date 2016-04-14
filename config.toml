@@ -8,14 +8,6 @@ href = "/jobs/"
 title = "Jobs"
 
 [[navLinks]]
-href = "/projects/"
-title = "Projects"
-
-[[navLinks]]
-href = "/contact/"
-title = "Contact"
-
-[[navLinks]]
 href = "https://medium.com/singapore-gds/"
 title="Blog"
 external=true

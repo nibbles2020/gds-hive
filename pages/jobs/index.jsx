@@ -13,7 +13,7 @@ export default (props) => {
 
   const projectsList = props.route.pages
     .filter((page) => access(page, 'file.ext') === 'md')
-    .filter((page) => page.path.includes('/projects/'))
+    .filter((page) => page.path.includes('/jobs/'))
     .map((page) => {
       const title = access(page, 'data.title') || page.path;
       return (
