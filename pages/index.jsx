@@ -11,7 +11,6 @@ export default () =>
   (
     <DocumentTitle title={config.blogTitle}>
       <div>
-          index start
         <div>
           <div className={styles.section}>
             <h1 className={styles.header}> Mission </h1>

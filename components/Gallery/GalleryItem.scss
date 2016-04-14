@@ -6,6 +6,10 @@
   margin: 0 3rem 3rem 0;
   filter: saturate(10%);
 
+  a {
+    text-decoration: none;
+  }
+
   &:hover {
     filter: saturate(100%);
   }
@@ -14,8 +18,4 @@
 .image {
   margin: 0;
   width: 100%;
-}
-
-a {
-  text-decoration: none;
 }
