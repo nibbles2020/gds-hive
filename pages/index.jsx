@@ -30,12 +30,16 @@ export default () =>
                 'devicon-rails-plain',
                 'devicon-linux-plain',
                 'devicon-android-plain',
-                'devicon-apple-original',
-                'devicon-redhat-plain',
+                'swift',
                 'devicon-nodejs-plain',
-                'devicon-docker-plain',
+                'devicon-redhat-plain',
                 'devicon-postgresql-plain',
-                'http://instantlogosearch.com/svg/logomono/ansible-circle.svg'
+                'ansible',
+                'devicon-github-plain',
+                'devicon-docker-plain',
+                'devicon-angularjs-plain',
+                'devicon-amazonwebservices-original',
+                'hadoop',
               ]}
             />
           </div>
