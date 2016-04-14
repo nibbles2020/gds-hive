@@ -1,7 +1,7 @@
 blogTitle = "GDS-HIVE"
 authorName = "GDS"
 linkPrefix = "/gds-hive"
-resumeMailAddress = "mailto:hiring@ida-gds.com"
+resumeMailAddress = "hiring@ida-gds.com"
 
 [[navLinks]]
 href = "/jobs/"

@@ -1,0 +1,25 @@
+@import "variables.scss";
+
+html, body {
+  margin: 0;
+  padding: none;
+}
+
+body {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Palatino, serif;
+}
+
+.section {
+  padding: 10rem 22rem;
+}
+
+.page {
+  padding: 0 $page-padding $page-padding;
+  max-width: $max-page-width;
+}

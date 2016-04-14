@@ -30,12 +30,8 @@ export default class Html extends React.Component {
   }
 }
 
-Html.defaultProps = {
-  body: ''
-};
-
 Html.propTypes = {
-  body: React.PropTypes.object,
+  body: React.PropTypes.string,
   favicon: React.PropTypes.string,
   title: React.PropTypes.string
 };

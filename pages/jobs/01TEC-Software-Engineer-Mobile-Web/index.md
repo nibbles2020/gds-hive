@@ -12,7 +12,7 @@ If you are looking for opportunities to collaborate with leading industry expert
 
 As a Software Engineer, you will write beautiful code that satisfies customer through early and continuous delivery of working software.
 
-# Performance Profile
+## Performance Profile
 
 * Design and deliver software applications for mobile and web platforms
 * Write high quality and maintainable code on open-source web platforms and frameworks (node.js, Ruby on Rails)
@@ -23,7 +23,7 @@ As a Software Engineer, you will write beautiful code that satisfies customer th
 * Adhere to the Software Craftsmanship Manifesto
 * Prepare architectural and other technical documents
 
-# Requirements
+## Requirements
 
 * Degree or Diploma in Computer Science, Computer or Electronics Engineering, Information Technology or related disciplines.
 * Min 3 years experience in any of the followings: nodeJS, Java, Ruby on Rails, Python
@@ -32,7 +32,7 @@ As a Software Engineer, you will write beautiful code that satisfies customer th
 * Good presentation and listening skills
 * Candidates with more than 10 years of experience will be considered for senior position
 
-# Preferred
+## Preferred
 
 * Working experience in Agile and UX development environment will be an added advantage
 * Exposure to mobile application development will be an added advantage

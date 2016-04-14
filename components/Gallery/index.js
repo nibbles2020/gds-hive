@@ -12,9 +12,15 @@ export const GalleryItem = (props) => {
   return (
     <figure className={item.wrapper}>
       <Link to={props.path}>
-        <img className={item.image} src={props.imgPath}/>
-        <figcaption> {props.caption} </figcaption>
+        <img className={item.image} src={props.imgPath} />
+        <figcaption>{props.caption}</figcaption>
       </Link>
     </figure>
   );
+};
+
+GalleryItem.propTypes = {
+  caption: React.PropTypes.string,
+  imgPath: React.PropTypes.string,
+  path: React.PropTypes.string
 };

@@ -12,7 +12,7 @@ If you are looking for opportunities to collaborate with leading industry expert
 
 As a PaaS Specialist, you will provide a rock solid infrastructure for the software development team to code with ease and speed. In deployment
 
-# Performance Profile
+## Performance Profile
 
 * Build and manage multi-tenancy PaaS in a distributed cloud environment
 * Automate monitoring of PaaS health and utilisation
@@ -23,7 +23,7 @@ As a PaaS Specialist, you will provide a rock solid infrastructure for the softw
 * Provision application containers, databases and licenses for clients
 * Build system level security scan, harden system and application platform
 
-# Requirements
+## Requirements
 
 * Passionate for automation and building scalable, extensible, and flexible IT infrastructure
 * Experience in software-defined infrastructure (OpenStack, CloudStack, VMSphere)
@@ -32,7 +32,7 @@ As a PaaS Specialist, you will provide a rock solid infrastructure for the softw
 * Good understanding of software defined networking (BGP, VXLAn, OpenFlow) and storage technology (Ceph, iSCSI, pNFS)
 * Degree or Diploma in Computer Science, Computer or Electronics Engineering, Information Technology or related disciplines.
 
-# Preferred
+## Preferred
 
 * Experience working with PaaS cloud technologies like (AWS, Azure, OpenShift, Digital Ocean, Heroku, CloudFoundry, etc.)
 * Proficiency in continuous integration tools (Jenkins, Atlassian Bamboo etc.)
