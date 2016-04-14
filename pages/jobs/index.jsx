@@ -5,7 +5,6 @@ import access from 'safe-access';
 import { config } from 'config';
 import URL from 'url';
 import { GalleryContainer, GalleryItem } from 'components/Gallery';
-import globals from '../../scss/globals.scss';
 
 export default (props) => {
   const jobsList = props.route.pages

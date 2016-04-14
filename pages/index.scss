@@ -36,6 +36,7 @@
 
 .section {
   composes: section from '../scss/variables.scss';
+  padding: 10rem 22rem;
 }
 
 .bgcolor {
