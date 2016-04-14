@@ -17,8 +17,7 @@ export default () =>
     <GoogleMap
         options={createMapOptions}
         defaultCenter={{ lat: 1.3, lng: 103.789228 }}
-        defaultZoom={18}
-      />
+        defaultZoom={18}/>
     </div>
     <div className={styles['contact-details']}>
       <p>mail@example.com</p>

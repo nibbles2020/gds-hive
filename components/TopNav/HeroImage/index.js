@@ -9,7 +9,7 @@ const createLink = (l, currentPathname) => {
 
   if (l.external) {
     return (
-      <a href={l.href} className={`${styles.link} ${isCurrentStyle}`}>
+      <a href={l.href} key={l.href} className={`${styles.link} ${isCurrentStyle}`}>
         {l.title}
       </a>
     );
