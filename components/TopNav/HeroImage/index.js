@@ -5,7 +5,11 @@ import { Link } from 'react-router';
 import { link } from 'gatsby-helpers';
 
 const createLink = (l, currentPathname) => {
-  const isCurrentStyle = (currentPathname === l.href) ? styles.current : '';
+  // Matches subpaths too, need to slice to remove leading forward slash
+  const isCurrentStyle =
+    (currentPathname === l.href) || (currentPathname.includes(l.href.slice(1) || '*', 1))
+      ? styles.current
+      : '';
 
   if (l.external) {
     return (

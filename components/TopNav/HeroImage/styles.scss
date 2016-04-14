@@ -2,51 +2,50 @@
   cursor: pointer;
   text-decoration: none;
 
-  &:after {
-    position: relative;
+  &::after {
+    background: #eee;
+    border-radius: 100%;
     bottom: 0;
     content: "";
-    margin: 0.5rem auto;
-    width: 100%;
     display: block;
-    background: #eee;
-    width: 0.7rem;
     height: 0.7rem;
-    border-radius: 100%;
+    margin: 0.5rem auto 0;
+    position: relative;
+    width: 0.7rem;
   }
 }
 
+/* HACK: CSS modules do not support composes inside pseudo-selectors */
 .dotted-hover {
   &:hover {
     cursor: pointer;
+    margin: 0 0 0.7rem;
     text-decoration: none;
 
-    &:after {
-      position: relative;
+    &::after {
+      background: #eee;
+      border-radius: 100%;
       bottom: 0;
       content: "";
-      margin: 0.5rem auto;
-      width: 100%;
       display: block;
-      background: #eee;
-      width: 0.7rem;
       height: 0.7rem;
-      border-radius: 100%;
+      margin: 0.5rem auto 0;
+      position: relative;
+      width: 0.7rem;
     }
   }
 }
 
 .gdsbackground {
   align-items: center;
+  background-size: cover !important; /* need !important for Chrome (thanks Chrome) */
   background: url('components/TopNav/HeroImage/background.png') no-repeat center center fixed;
-  background-size: cover;
   display: flex;
   flex-direction: column;
-  height: auto;
 }
 
 .fullsize {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .links {
@@ -57,17 +56,24 @@
 }
 
 .link {
+  color: #eee;
+  composes: dotted-hover;
   font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
+  margin: 0 0 1.9rem;
+  padding: calc(1.5rem + 7px) 3.5rem 0;
   text-transform: uppercase;
-  margin-top: 0.3rem;
-  padding: calc(1.5rem + 7px) 3.5rem 1.5rem 3.5rem;
-  color: #eee;
-  composes: dotted-hover;
   user-select: none;
 }
 
 .current {
   composes: dotted;
+  margin: 0;
+
+  /* Hack around having two classes for applying the dotted css */
+  /* Subtract the applied-twice margin */
+  &:hover {
+    margin: 0 0 0.7rem;
+  }
 }
