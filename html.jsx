@@ -22,7 +22,7 @@ export default class Html extends React.Component {
           <link rel="stylesheet" type="text/css" href={link('/yellow.css')} />
         </head>
         <body className="landing-page">
-          <div id="react-mount" dangerouslySetInnerHTML={ { __html: this.props.body } } />
+          <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={link('/bundle.js')} />
         </body>
       </html>

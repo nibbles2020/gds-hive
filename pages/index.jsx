@@ -5,6 +5,7 @@ import DocumentTitle from 'react-document-title';
 import TechSection from 'components/TechSection';
 import ContactSection from 'components/ContactSection';
 import variables from '../scss/variables.scss';
+import 'scss/global.scss';
 
 export default () =>
   (

@@ -1,14 +1,11 @@
 import React from 'react';
-import { config } from 'config';
-import { Container } from 'react-responsive-grid';
 import TopNav from 'components/TopNav';
-import { rhythm } from 'utils/typography';
 
 const Template = (props) => {
   const { children, location } = props;
   return (
     <div>
-      <TopNav {...location}/>
+      <TopNav {...location} />
       {children}
     </div>
   );
