@@ -20,7 +20,7 @@ export default class Html extends React.Component {
           <link href={require('pages/favicon.png')} rel="icon" type="image/x-icon" />
           <link rel="stylesheet" href="//cdn.rawgit.com/konpa/devicon/master/devicon.min.css" />
           <link rel="stylesheet" type="text/css" href={link('/yellow.css')} />
-          <link href={link('https://fonts.googleapis.com/css?family=Catamaran:400,300,200,100,500,600,700,900,800')} rel="stylesheet" type="text/css" />
+          <link href="//fonts.googleapis.com/css?family=Catamaran:400,300,200,100,500,600,700,900,800')" rel="stylesheet" type="text/css" />
         </head>
         <body className="landing-page">
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />

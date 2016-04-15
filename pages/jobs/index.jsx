@@ -22,7 +22,7 @@ export default (props) => {
     );
 
   return (
-    <DocumentTitle title={config.blogTitle}>
+    <DocumentTitle title={config.title}>
       <div>
         <h1>Jobs</h1>
         <GalleryContainer>{jobsList}</GalleryContainer>

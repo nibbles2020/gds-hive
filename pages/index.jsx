@@ -9,7 +9,7 @@ import 'scss/globals.scss';
 
 export default () =>
   (
-    <DocumentTitle title={config.blogTitle}>
+    <DocumentTitle title={config.title}>
       <div>
         <div className={styles.section}>
           <h1 className={styles.header}> Mission </h1>
