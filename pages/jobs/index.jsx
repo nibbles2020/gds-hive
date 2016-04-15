@@ -17,6 +17,7 @@ export default (props) => {
           path={link(page.path)}
           imgPath={link(URL.resolve(page.path, page.data.thumbnail))}
           caption={page.data.title}
+          synopsis={page.data.synopsis}
         />
       )
     );

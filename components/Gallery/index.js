@@ -1,6 +1,6 @@
 import React from 'react';
 import container from './GalleryContainer.scss';
-import item from './GalleryItem.scss';
+import styles from './GalleryItem.scss';
 import { Link } from 'react-router';
 
 export const GalleryContainer = (props) => {
@@ -10,17 +10,19 @@ export const GalleryContainer = (props) => {
 
 export const GalleryItem = (props) => {
   return (
-    <figure className={item.wrapper}>
+    <div className={styles.wrapper}>
       <Link to={props.path}>
-        <img className={item.image} src={props.imgPath} />
-        <figcaption>{props.caption}</figcaption>
+        <img className={styles.image} src={props.imgPath} />
+        <p className={styles.title}>{props.caption}</p>
+        <p>{props.synopsis}</p>
       </Link>
-    </figure>
+    </div>
   );
 };
 
 GalleryItem.propTypes = {
   caption: React.PropTypes.string,
+  synopsis: React.PropTypes.string,
   imgPath: React.PropTypes.string,
   path: React.PropTypes.string
 };
