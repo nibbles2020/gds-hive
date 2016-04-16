@@ -13,7 +13,6 @@ GDS Hive landing page.
 ## Build
 
     npm run build
-    npm run build-prefix-links
 
 ## Lint
 

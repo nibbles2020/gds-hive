@@ -11,7 +11,6 @@
     "deploy": "gatsby build --prefix-links && gh-pages -d public",
     "dev": "gatsby develop",
     "build": "gatsby build",
-    "build-prefix-links": "gatsby build --prefix-links",
     "lint": "eslint --ext=js --ext=jsx .",
     "lint-fix": "eslint --fix --ext=js --ext=jsx ."
   },
