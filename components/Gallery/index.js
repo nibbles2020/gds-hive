@@ -15,7 +15,7 @@ export const GalleryItem = (props) =>
     <Link to={props.path} className={styles.wrapper}>
       <img className={styles.image} src={props.imgPath} role="presentation" />
       <p className={styles.title}>{props.caption}</p>
-      <div>{props.synopsis}</div>
+      <div className={styles.synopsis}>{props.synopsis}</div>
     </Link>
   );
 
