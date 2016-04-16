@@ -3,7 +3,7 @@ import DocumentTitle from 'react-document-title';
 import { link } from 'gatsby-helpers';
 import favicon from 'pages/favicon.png';
 
-export const Html = (props) => {
+const Html = (props) => {
   let title;
   title = DocumentTitle.rewind();
   if (props.title) {
