@@ -13,6 +13,8 @@ export default (props) => {
       <DocumentTitle title={post.title}>
         <div className="markdown">
           <h1>{post.title}</h1>
+          <div>{post.schedule}</div>
+          <div>{post.status}</div>
           <div dangerouslySetInnerHTML={{ __html: post.body }} />
         </div>
       </DocumentTitle>
