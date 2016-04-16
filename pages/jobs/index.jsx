@@ -5,7 +5,8 @@ import access from 'safe-access';
 import { config } from 'config';
 import { GalleryContainer, GalleryItem } from 'components/Gallery';
 
-export const Jobs = (props) => {
+// Cannot name the function (Gatsby)
+export default (props) => {
   const jobsList = props.route.pages
     .filter((page) => access(page, 'file.ext') === 'md')
     .filter((page) => page.path.includes('/jobs/'))
@@ -29,8 +30,8 @@ export const Jobs = (props) => {
   );
 };
 
-Jobs.propTypes = {
-  route: React.PropTypes.object
-};
+// Jobs.propTypes = {
+//   route: React.PropTypes.object
+// };
 
-export default Jobs;
+// export default Jobs;

@@ -7,7 +7,7 @@ export const GalleryContainer = (props) =>
   <div className={container.gallery}>{props.children}</div>;
 
 GalleryContainer.propTypes = {
-  children: React.PropTypes.element
+  children: React.PropTypes.arrayOf(React.PropTypes.element)
 };
 
 export const GalleryItem = (props) =>

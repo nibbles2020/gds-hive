@@ -1,9 +1,9 @@
 import React from 'react';
 import DocumentTitle from 'react-document-title';
-
 import '../scss/zenburn.css';
 
-export const MarkdownWrapper = (props) => {
+// Don't name function (Gatsby), or props.children will fail in components
+export default (props) => {
   const post = props.route.page.data;
 
   return (
@@ -18,8 +18,8 @@ export const MarkdownWrapper = (props) => {
   );
 };
 
-MarkdownWrapper.propTypes = {
-  route: React.PropTypes.object
-};
+// MarkdownWrapper.propTypes = {
+//   route: React.PropTypes.object
+// };
 
-export default MarkdownWrapper;
+// export default MarkdownWrapper;
