@@ -29,7 +29,7 @@
     "file-loader": "^0.8.5",
     "gatsby": "^0.8.3",
     "google-map-react": "^0.10.5",
-    "lodash": "^4.5.1",
+    "lodash": "^4.11.1",
     "moment": "^2.10.3",
     "postcss": "^5.0.16",
     "postcss-cssnext": "^2.4.0",
@@ -43,7 +43,7 @@
     "react-google-map": "^1.0.1",
     "react-google-maps": "^4.9.1",
     "react-responsive-grid": "^0.3.0",
-    "react-router": "^2.0.0",
+    "react-router": "^2.0.1",
     "react-transform": "0.0.3",
     "safe-access": "^0.1.0",
     "svg-inline-loader": "^0.4.1",
@@ -54,11 +54,15 @@
     "webpack": "^1.12.13"
   },
   "devDependencies": {
+    "babel-plugin-react-transform": "^1.1.1",
     "eslint": "^2.8.0",
     "eslint-config-airbnb": "^7.0.0",
     "eslint-plugin-import": "^1.4.0",
     "eslint-plugin-jsx-a11y": "^0.6.2",
     "eslint-plugin-react": "^4.3.0",
-    "gh-pages": "^0.10.0"
+    "gh-pages": "^0.10.0",
+    "react-transform-catch-errors": "^1.0.2",
+    "react-transform-hmr": "^1.0.4",
+    "redbox-react": "^1.2.3"
   }
 }
