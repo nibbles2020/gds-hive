@@ -9,6 +9,8 @@
   },
   "scripts": {
     "deploy": "gatsby build --prefix-links; gh-pages -d public",
+    "dev": "gatsby develop",
+    "build": "gatsby build",
     "eslint": "eslint .; exit 0;"
   },
   "keywords": [
