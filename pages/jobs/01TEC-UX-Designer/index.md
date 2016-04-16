@@ -3,7 +3,7 @@ title: User Experience Designer
 schedule: Full-time
 status: Permanent
 order: 0
-thumbnail: 'uxd.svg'
+thumbnail: '/uxd.svg'
 synopsis: You have a passion for solving UX challenges and ability to distil complex issues into useful and intuitive design solutions for citizens.
 ---
 

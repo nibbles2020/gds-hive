@@ -3,7 +3,7 @@ title: Platform-as-a-Service Specialist
 schedule: Full-time
 status: Permanent
 order: 10
-thumbnail: 'paas.svg'
+thumbnail: '/paas.svg'
 synopsis: Government Platform-as-a-service (PaaS) is an initiative in that direction bringing a new approach to application designs, development and deployment.
 ---
 

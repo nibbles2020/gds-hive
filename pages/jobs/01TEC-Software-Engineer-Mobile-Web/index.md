@@ -3,7 +3,7 @@ title: Software Engineer (Mobile & Web)
 schedule: Full-time
 status: Permanent
 order: 0
-thumbnail: 'dev.svg'
+thumbnail: '/dev.svg'
 synopsis: The Government Digital Services (GDS) Team aims to spearhead the digital transformation of government.
 ---
 

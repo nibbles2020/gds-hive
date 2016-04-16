@@ -16,7 +16,7 @@ export default (props) => {
         <GalleryItem
           key={link(page.path)}
           path={link(page.path)}
-          imgPath={link(`icons/${page.data.thumbnail}`)}
+          imgPath={link(`icons${page.data.thumbnail}`)}
           caption={page.data.title}
           synopsis={page.data.synopsis}
         />
