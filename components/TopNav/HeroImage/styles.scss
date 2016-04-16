@@ -48,9 +48,9 @@
 
 .fullsize {
   min-height: 100vh;
-  /* IE11 fix: http://stackoverflow.com/questions/25177791/ie11-flexbox-and-vh-height-units-not-compatible */
-  /* 7.5rem is supposed to be navbar height */
-  height: calc(100vh - 7.5rem);
+  /* IE11 fixes for horizontal width being larger than viewport width */
+  width: 100%;
+  overflow: hidden;
 }
 
 .links {

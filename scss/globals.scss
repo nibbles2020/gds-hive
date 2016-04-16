@@ -27,6 +27,11 @@ a {
   text-decoration-color: $flair-color;
 }
 
+/* IE 11 fix for contact section */
+ul li {
+  hyphens: auto;
+}
+
 .page {
   padding: calc($page-padding / 3) $page-padding $page-padding;
   max-width: $max-page-width;
