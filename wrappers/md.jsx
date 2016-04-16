@@ -2,6 +2,7 @@
 
 import React from 'react';
 import DocumentTitle from 'react-document-title';
+import { link } from 'gatsby-helpers';
 import '../scss/zenburn.css';
 
 // Don't name function (Gatsby), or props.children will fail in components
@@ -12,6 +13,8 @@ export default (props) => {
     <div>
       <DocumentTitle title={post.title}>
         <div className="markdown">
+          {/* FIXME: change to a back link that preserves scroll position/doesn't create a page load */}
+          <a href={link('../')}>◄ Jobs list</a>
           <h1>{post.title}</h1>
           <div>{post.schedule}</div>
           <div>{post.status}</div>
