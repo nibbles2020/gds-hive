@@ -11,6 +11,7 @@
     "deploy": "gatsby build --prefix-links; gh-pages -d public",
     "dev": "gatsby develop",
     "build": "gatsby build",
+    "build-prefix-links": "gatsby build --prefix-links",
     "eslint": "eslint .; exit 0;"
   },
   "keywords": [
