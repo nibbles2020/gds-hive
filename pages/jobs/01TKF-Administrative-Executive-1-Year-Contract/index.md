@@ -1,7 +1,7 @@
 ---
 title: Administrative Executive (1 year External Contract)
-schedule: External Contract
-status: Permanent
+schedule: Full-time
+status: External Contract
 order: 0
 thumbnail: 'uxd.svg'
 synopsis: ''
