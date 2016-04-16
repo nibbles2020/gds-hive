@@ -48,7 +48,7 @@ module.exports = function (config, env) {
   });
 
   config.plugin('extract-css', ExtractTextPlugin,
-    ['yellow.css', { allChunks: true }]
+    ['gds.css', { allChunks: true }]
   );
 
   return config;

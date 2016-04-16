@@ -20,7 +20,7 @@ export const Html = (props) => {
         <title>{props.title}</title>
         <link href={favicon} rel="icon" type="image/x-icon" />
         <link rel="stylesheet" href="//cdn.rawgit.com/konpa/devicon/master/devicon.min.css" />
-        <link rel="stylesheet" type="text/css" href={link('/yellow.css')} />
+        <link rel="stylesheet" type="text/css" href={link('/gds.css')} />
         <link href="//fonts.googleapis.com/css?family=Catamaran:500" rel="stylesheet" type="text/css" />
       </head>
 
