@@ -37,13 +37,13 @@ module.exports = function (config, env) {
   const sassLoaders = {
     static:     'css?modules&localIdentName=[hash:base64:12]&minimize&importLoaders=1!postcss',
     production: 'css?modules&localIdentName=[hash:base64:12]&minimize&importLoaders=1!postcss',
-    otherwise:  'style!css?modules&localIdentName=[path][name]-[local]-[hash:base64:5]&importLoaders=1!postcss'
+    noEnv:      'style!css?modules&localIdentName=[path][name]-[local]-[hash:base64:5]&importLoaders=1!postcss'
   };
 
   config.loader('sass', function (cfg) {
     cfg.test    = /\.scss$/;
     cfg.exclude = /node_modules/;
-    cfg.loader  = ExtractTextPlugin.extract(sassLoaders[env] || sassLoaders.otherwise);
+    cfg.loader  = sassLoaders[env] ? ExtractTextPlugin.extract(sassLoaders[env]) : sassLoaders.noEnv;
     return cfg;
   });
 
