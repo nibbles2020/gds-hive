@@ -1,15 +1,12 @@
 import React from 'react';
 import TopNav from 'components/TopNav';
 
-const Template = (props) => {
-  const { children, location } = props;
-  return (
-    <div>
-      <TopNav {...location} />
-      {children}
-    </div>
-  );
-};
+const Template = (props) => (
+  <div>
+    <TopNav {...props.location} />
+    {props.children}
+  </div>
+);
 
 Template.propTypes = {
   children: React.PropTypes.any,

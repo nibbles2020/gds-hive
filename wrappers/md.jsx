@@ -3,9 +3,8 @@ import DocumentTitle from 'react-document-title';
 
 import '../scss/zenburn.css';
 
-export default (props) => {
-  const { route } = props;
-  const post = route.page.data;
+export const MarkdownWrapper = (props) => {
+  const post = props.route.page.data;
 
   return (
     <div>
@@ -18,3 +17,9 @@ export default (props) => {
     </div>
   );
 };
+
+MarkdownWrapper.propTypes = {
+  route: React.PropTypes.object
+};
+
+export default MarkdownWrapper;

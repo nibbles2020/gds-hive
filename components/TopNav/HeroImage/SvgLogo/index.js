@@ -1,3 +1,5 @@
+/* eslint max-len: 0 */
+
 import React from 'react';
 import styles from './styles.scss';
 

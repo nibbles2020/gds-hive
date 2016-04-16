@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './index.scss';
-import {config} from 'config';
+import { config } from 'config';
 import DocumentTitle from 'react-document-title';
 import TechSection from 'components/TechSection';
 import ContactSection from 'components/ContactSection';
@@ -23,25 +23,25 @@ export default () =>
           <h1 className={styles.header}> Technology </h1>
           <TechSection
             icons={[
-                'devicon-react-original',
-                'devicon-d3js-plain',
-                'devicon-rails-plain',
-                'devicon-linux-plain',
-                'devicon-android-plain',
-                'swift',
-                'devicon-nodejs-plain',
-                'devicon-redhat-plain',
-                'devicon-postgresql-plain',
-                'ansible',
-                'devicon-github-plain',
-                'devicon-docker-plain',
-                'devicon-angularjs-plain',
-                'devicon-amazonwebservices-original',
-                'hadoop'
-              ]}
+              'devicon-react-original',
+              'devicon-d3js-plain',
+              'devicon-rails-plain',
+              'devicon-linux-plain',
+              'devicon-android-plain',
+              'swift',
+              'devicon-nodejs-plain',
+              'devicon-redhat-plain',
+              'devicon-postgresql-plain',
+              'ansible',
+              'devicon-github-plain',
+              'devicon-docker-plain',
+              'devicon-angularjs-plain',
+              'devicon-amazonwebservices-original',
+              'hadoop'
+            ]}
           />
         </div>
-        <ContactSection/>
+        <ContactSection />
       </div>
     </DocumentTitle>
   );

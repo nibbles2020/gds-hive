@@ -3,7 +3,7 @@ import globals from '../../scss/globals.scss';
 import { config } from 'config';
 import styles from './styles.scss';
 
-export default (props) => {
+export const Jobs = (props) => {
   const emailLink = props.location.pathname !== '/jobs/'
     ? (
         <div className={styles['email-link']}>
@@ -21,3 +21,10 @@ export default (props) => {
     </div>
   );
 };
+
+Jobs.propTypes = {
+  location: React.PropTypes.object,
+  children: React.PropTypes.element
+};
+
+export default Jobs;

@@ -26,7 +26,7 @@ const createLink = (l, currentPathname) => {
   );
 };
 
-export default ({ pathname, links, fullsize }) => {
+export const HeroImage = ({ pathname, links, fullsize }) => {
   const renderLinks = (
     <div className={styles.links}>
       {links.map((l) => createLink(l, pathname))}
@@ -40,3 +40,11 @@ export default ({ pathname, links, fullsize }) => {
     </div>
   );
 };
+
+HeroImage.propTypes = {
+  pathname: React.PropTypes.string,
+  links: React.PropTypes.arrayOf(React.PropTypes.string),
+  fullsize: React.PropTypes.bool
+};
+
+export default HeroImage;

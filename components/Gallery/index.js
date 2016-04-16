@@ -13,7 +13,7 @@ GalleryContainer.propTypes = {
 export const GalleryItem = (props) =>
   (
     <Link to={props.path} className={styles.wrapper}>
-      <img className={styles.image} src={props.imgPath} />
+      <img className={styles.image} src={props.imgPath} role="presentation" />
       <p className={styles.title}>{props.caption}</p>
       <div>{props.synopsis}</div>
     </Link>
