@@ -1,23 +1,22 @@
 .logo-container {
   margin: auto;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .logo {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
     max-height: 50vh;
     width: 60vw;
 
     &.definition {
-      margin: 2em auto 0 auto;
+      margin: 2em auto;
     }
   }
 }
 
 .path {
   animation: dash 3s cubic-bezier(0.785, 0.135, 0.150, 0.860) 0.5s forwards;
-  // animation: dash 2s cubic-bezier(0.7, 0.5, 0.50, 0.5) 0.5s infinite;
 }
 
 @keyframes dash {
@@ -26,13 +25,16 @@
     stroke-dasharray: 200;
     stroke-dashoffset: 500;
   }
+
   33% {
     stroke-width: 1px;
   }
+
   50% {
     stroke-dasharray: 350;
     stroke-dashoffset: 250;
   }
+
   100% {
     stroke-dasharray: 700;
     stroke-dashoffset: 0;
