@@ -8,7 +8,7 @@ export const TechSection = ({ icons }) =>
   </div>;
 
 TechSection.propTypes = {
-  icons: React.PropTypes.string
+  icons: React.PropTypes.arrayOf(React.PropTypes.string)
 };
 
 export default TechSection;

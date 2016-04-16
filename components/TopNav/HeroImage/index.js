@@ -43,7 +43,7 @@ export const HeroImage = ({ pathname, links, fullsize }) => {
 
 HeroImage.propTypes = {
   pathname: React.PropTypes.string,
-  links: React.PropTypes.arrayOf(React.PropTypes.string),
+  links: React.PropTypes.arrayOf(React.PropTypes.object),
   fullsize: React.PropTypes.bool
 };
 
