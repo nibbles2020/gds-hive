@@ -1,5 +1,5 @@
 .bggray {
-  background-color: #e8e8e8;
+  background-color: $color-gray;
 }
 
 $page-padding: 5%;
@@ -8,4 +8,5 @@ $line-height: 1.6;
 $max-page-width: 1200px;
 $break-point: 992px;
 
-$flair-color: #FED00F;
+$flair-color: #fed00f;
+$color-gray: #e8e8e8
