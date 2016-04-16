@@ -1,3 +1,5 @@
+/* eslint react/prop-types: 0 */
+
 import React from 'react';
 import DocumentTitle from 'react-document-title';
 import '../scss/zenburn.css';
