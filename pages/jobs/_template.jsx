@@ -1,16 +1,13 @@
 import React from 'react';
 import globals from '../../scss/globals.scss';
 import { config } from 'config';
-import styles from './styles.scss';
 
 export const Jobs = (props) => {
   const emailLink = props.location.pathname !== '/jobs/'
     ? (
-        <div className={styles['email-link']}>
-          <a href={`mailto:${config.resumeMailAddress}`}>
-            Interested? Drop us a message at {config.resumeMailAddress}.
-          </a>
-        </div>
+        <a href={`mailto:${config.resumeMailAddress}`}>
+          Interested? Drop us a message at {config.resumeMailAddress}.
+        </a>
       )
     : '';
 

@@ -1,5 +1,4 @@
 import React from 'react';
-// import NavBar from './NavBar';
 import HeroImage from './HeroImage';
 import { link } from 'gatsby-helpers';
 import { config } from 'config';
