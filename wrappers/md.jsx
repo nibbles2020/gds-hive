@@ -13,8 +13,7 @@ export default (props) => {
     <div>
       <DocumentTitle title={post.title}>
         <div className="markdown">
-          {/* FIXME: change to a back link that preserves scroll position/doesn't create a page load */}
-          <a href={link('../')}>◄ Jobs list</a>
+          <a href="javascript:history.back()">◄ Jobs list</a>
           <h1>{post.title}</h1>
           <div>{post.schedule}</div>
           <div>{post.status}</div>
