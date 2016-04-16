@@ -5,22 +5,14 @@ import globals from '../../scss/globals.scss';
 import { config } from 'config';
 
 // Cannot name the function (Gatsby) or will fail to render
-export default (props) => {
-  const emailLink = props.location.pathname !== '/jobs/'
-    ? (
-        <a href={`mailto:${config.resumeMailAddress}`}>
-          Interested? Drop us a message at {config.resumeMailAddress}.
-        </a>
-      )
-    : '';
-
-  return (
-    <div className={globals.page}>
-      <div>{props.children}</div>
-      {emailLink}
-    </div>
-  );
-};
+export default (props) => (
+  <div className={globals.page}>
+    <div>{props.children}</div>
+    <a href={`mailto:${config.resumeMailAddress}`}>
+      Interested? Drop us a message at {config.resumeMailAddress}.
+    </a>
+  </div>
+);
 
 // JobTemplate.propTypes = {
 //   location: React.PropTypes.object,
