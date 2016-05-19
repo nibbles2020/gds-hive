@@ -33,10 +33,6 @@ ul li {
 }
 
 .page {
-  padding: calc($page-padding / 3) $page-padding $page-padding;
+  padding: $page-padding calc($page-padding / 2);
   max-width: $max-page-width;
-}
-
-.h1 {
-  color: deeppink !important;
 }

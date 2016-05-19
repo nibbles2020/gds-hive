@@ -22,7 +22,6 @@
 }
 
 .mission-container {
-  min-width: 80vw;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -53,16 +52,9 @@
 }
 
 .section {
-  padding: 10rem 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-@media screen and (max-width: $break-point) {
-  .section {
-    padding: 2vh 5vw;
-  }
 }
 
 .bgcolor {

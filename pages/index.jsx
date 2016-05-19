@@ -5,13 +5,13 @@ import DocumentTitle from 'react-document-title';
 import TechSection from 'components/TechSection';
 import ContactSection from 'components/ContactSection';
 import variables from '../scss/variables.scss';
-import 'scss/globals.scss';
+import globals from '../scss/globals.scss';
 
 export default () =>
   (
     <DocumentTitle title={config.title}>
       <div>
-        <div className={styles.section}>
+        <div className={`${styles.section} ${globals.page}`}>
           <h1 className={styles.header}> Mission </h1>
           <div className={styles['mission-container']}>
             <div className={styles['mission-wrapper']}>
@@ -34,7 +34,7 @@ export default () =>
             </div>
           </div>
         </div>
-        <div className={`${styles.section} ${variables.bggray}`}>
+        <div className={`${styles.section} ${globals.page} ${variables.bggray}`}>
           <h1 className={styles.header}> Technology </h1>
           <TechSection
             icons={[
