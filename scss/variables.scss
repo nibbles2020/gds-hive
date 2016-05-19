@@ -1,7 +1,3 @@
-.bggray {
-  background-color: $color-gray;
-}
-
 $page-padding: 5%;
 $font-size: 16px;
 $line-height: 1.6;
@@ -11,6 +7,10 @@ $break-point: 992px;
 $color-body-text: #444;
 
 $color-flair: #fed00f;
-$color-gray: #e8e8e8;
+$color-gray: #efefef;
 $color-dark-gray: #545454;
 $color-white: #eee;
+
+.bggray {
+  background-color: $color-gray;
+}

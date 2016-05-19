@@ -4,14 +4,14 @@ schedule: Full-time
 status: Permanent
 order: 0
 thumbnail: 'uxd.svg'
-synopsis: You have a passion for solving UX challenges and ability to distil complex issues into useful and intuitive design solutions for citizens.
+synopsis: You have a passion for solving UX challenges and ability to distil complex issues into useful and effective design solutions for citizens.
 ---
 
 The Government Digital Services (GDS) Team aims to spearhead the digital transformation of government.
 GDS was established to develop new capabilities focusing on strategic systems of engagement where ICT provides a differentiating factor to citizens. The team functions to deliver digital information and transactional services leveraging on Agile Application Development, Analytics, User Experience Design, Design Thinking and Web Application Performance Optimisation.
 
 If you are looking for opportunities to collaborate with leading industry experts and be surrounded by highly motivated peers, we welcome you to join GDS. These are newly created positions with many opportunities for groundbreaking contributions.
-As a User Experience Designer, you have a passion for solving UX challenges and ability to distil complex issues into useful and intuitive design solutions for citizens.
+As a User Experience Designer, you have a passion for solving UX challenges and ability to distil complex issues into useful and effective design solutions for citizens.
 
 ## Performance Profile
 

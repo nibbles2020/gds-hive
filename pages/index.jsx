@@ -13,12 +13,26 @@ export default () =>
       <div>
         <div className={styles.section}>
           <h1 className={styles.header}> Mission </h1>
-          <p className={styles['body-text']}>
-            Deliver effective and well-designed digital solutions for the citizen<br />
-            Enable data-driven decision making in public policy<br />
-            Develop “build” tech capability: software engineers, designers, data scientists<br />
-            Innovation for the public good
-          </p>
+          <div className={styles['mission-container']}>
+            <div className={styles['mission-wrapper']}>
+              <img src={require('./svg/mission1.svg')} className={styles['mission-icon']}></img>
+              <p className={styles['mission-text']}>
+                Deliver innovative and well-designed digital solutions for our citizens
+              </p>
+            </div>
+            <div className={styles['mission-wrapper']}>
+              <img src={require('./svg/mission2.svg')} className={styles['mission-icon']}></img>
+              <p className={styles['mission-text']}>
+                Develop 'build' tech capabilities in software engineering, design, and data science
+              </p>
+            </div>
+            <div className={styles['mission-wrapper']}>
+              <img src={require('./svg/mission3.svg')} className={styles['mission-icon']}></img>
+              <p className={styles['mission-text']}>
+                Enable data-driven decision making in public policy
+              </p>
+            </div>
+          </div>
         </div>
         <div className={`${styles.section} ${variables.bggray}`}>
           <h1 className={styles.header}> Technology </h1>

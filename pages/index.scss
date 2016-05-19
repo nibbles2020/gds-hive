@@ -1,13 +1,14 @@
 @import "../scss/variables.scss";
 
 .header {
-  font-size: 2.2rem;
+  font-size: 3rem;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: .2rem;
   color: $color-body-text;
   width: 100%;
+  margin: 0 auto 2rem auto;
 
   &::after {
     display: block;
@@ -20,11 +21,30 @@
   }
 }
 
-.body-text {
-  max-width: $max-page-width;
-  margin-top: 4rem;
-  font-size: 2.3rem;
+.mission-container {
+  min-width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mission-wrapper {
+  display: block;
   text-align: center;
+  margin: 0 4vw;
+}
+
+.mission-icon {
+  //max-height: 40vh;
+  min-width: 25rem;
+  width: 15vw;
+}
+
+.mission-text {
+  width: 25rem;
+  min-width: 20rem;
+  margin: auto;
+  font-size: 2rem;
   color: $color-body-text;
 }
 

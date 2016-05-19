@@ -6,6 +6,7 @@ import { link } from 'gatsby-helpers';
 import access from 'safe-access';
 import { config } from 'config';
 import { GalleryContainer, GalleryItem } from 'components/Gallery';
+import styles from '../index.scss';
 
 // Cannot name the function (Gatsby)
 export default (props) => {
@@ -24,8 +25,8 @@ export default (props) => {
 
   return (
     <DocumentTitle title={config.title}>
-      <div>
-        <h1>Jobs</h1>
+      <div className={styles.section}>
+        <h1 className={styles.header}>Careers</h1>
         <GalleryContainer>{jobsList}</GalleryContainer>
       </div>
     </DocumentTitle>

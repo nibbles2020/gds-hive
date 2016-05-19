@@ -4,10 +4,12 @@ schedule: Full-time
 status: Permanent
 order: 0
 thumbnail: 'dev.svg'
-synopsis: The Government Digital Services (GDS) Team aims to spearhead the digital transformation of government.
+synopsis: You write high quality and maintainable code that satisfies customer through early and continuous delivery of working software.
 ---
 
-The Government Digital Services (GDS) Team aims to spearhead the digital transformation of government. Government Platform-as-a-service (PaaS) is an initiative in that direction bringing a new approach to application designs, development and deployment. This Agile, Open and Cloud-enabled Application Infrastructure will provide the government with a modern IT platform that accelerates software development without compromising operations and security. Our objective is to catapult our government infrastructure into the new digital era with faster time to market, operational agility, automated deployment and scaling. The GovPaaS will consist of modern technologies like Containers, Microservices and xPaaS Service Catalogue in order to drive continuous delivery for government digital services securely and enhance citizens experience. At the center of the GovPaaS is the API Gateway which will facilitate developer-friendly reusable data and microservices exchange.
+The Government Digital Services (GDS) Team aims to spearhead the digital transformation of government.
+
+GDS was established to develop new capabilities focusing on strategic systems of engagement where ICT provides a differentiating factor to citizens. The team functions to deliver digital information and transactional services leveraging on Agile Application Development, Analytics, User Experience Design, Design Thinking and Web Application Performance Optimisation.
 
 If you are looking for opportunities to collaborate with leading industry experts and be surrounded by highly motivated peers, we welcome you to join GDS. These are newly created positions with many opportunities for ground breaking contributions.
 

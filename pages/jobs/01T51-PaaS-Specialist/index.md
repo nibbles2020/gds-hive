@@ -4,14 +4,14 @@ schedule: Full-time
 status: Permanent
 order: 10
 thumbnail: 'paas.svg'
-synopsis: Government Platform-as-a-service (PaaS) is an initiative in that direction bringing a new approach to application designs, development and deployment.
+synopsis: You provide a rock solid infrastructure for the software development team to code and deploy with ease and speed.
 ---
 
 The Government Digital Services (GDS) Team aims to spearhead the digital transformation of government. Government Platform-as-a-service (PaaS) is an initiative in that direction bringing a new approach to application designs, development and deployment. This Agile, Open and Cloud-enabled Application Infrastructure will provide the government with a modern IT platform that accelerates software development without compromising operations and security. Our objective is to catapult our government infrastructure into the new digital era with faster time to market, operational agility, automated deployment and scaling. The GovPaaS will consist of modern technologies like Containers, Microservices and xPaaS Service Catalogue in order to drive continuous delivery for government digital services securely and enhance citizens experience. At the center of the GovPaaS is the API Gateway which will facilitate developer-friendly reusable data and microservices exchange.
 
 If you are looking for opportunities to collaborate with leading industry experts and be surrounded by highly motivated peers, we welcome you to join GDS. These are newly created positions with many opportunities for ground breaking contributions.
 
-As a PaaS Specialist, you will provide a rock solid infrastructure for the software development team to code with ease and speed. In deployment
+As a PaaS Specialist, you will provide a rock solid infrastructure for the software development team to code and deploy with ease and speed.
 
 ## Performance Profile
 
