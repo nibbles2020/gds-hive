@@ -2,7 +2,7 @@
 
 import React from 'react';
 import DocumentTitle from 'react-document-title';
-import { link } from 'gatsby-helpers';
+import { prefixLink } from 'gatsby-helpers';
 import access from 'safe-access';
 import { config } from 'config';
 import { GalleryContainer, GalleryItem } from 'components/Gallery';
@@ -15,9 +15,9 @@ export default (props) => {
     .filter((page) => page.path.includes('/jobs/'))
     .map((page) =>
         <GalleryItem
-          key={link(page.path)}
-          path={link(page.path)}
-          imgPath={link(`/jobs/icons/${page.data.thumbnail}`)}
+          key={prefixLink(page.path)}
+          path={prefixLink(page.path)}
+          imgPath={prefixLink(`/jobs/icons/${page.data.thumbnail}`)}
           caption={page.data.title}
           synopsis={page.data.synopsis}
         />

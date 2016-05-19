@@ -1,13 +1,13 @@
 import React from 'react';
 import HeroImage from './HeroImage';
-import { link } from 'gatsby-helpers';
+import { prefixLink } from 'gatsby-helpers';
 import { config } from 'config';
 
 const TopNav = ({ pathname }) => (
   <HeroImage
     pathname={pathname}
     links={config.navLinks}
-    fullsize={pathname === link('/')}
+    fullsize={pathname === prefixLink('/')}
   />
 );
 

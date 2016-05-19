@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.scss';
 import LogoSVG from './SvgLogo';
 import { Link } from 'react-router';
-import { link } from 'gatsby-helpers';
+import { prefixLink } from 'gatsby-helpers';
 
 const createLink = (l, currentPathname) => {
   // Matches subpaths too, need to slice to remove leading forward slash
@@ -20,7 +20,7 @@ const createLink = (l, currentPathname) => {
   }
 
   return (
-    <Link to={link(l.href)} key={l.href} className={`${styles.link} ${isCurrentStyle}`}>
+    <Link to={prefixLink(l.href)} key={l.href} className={`${styles.link} ${isCurrentStyle}`}>
       {l.title}
     </Link>
   );
