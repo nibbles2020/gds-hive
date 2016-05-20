@@ -2,11 +2,11 @@
 
 .wrapper {
   background-color: $color-gray;
+  color: $color-body-text;
   padding: 3.4rem;
   width: 29rem;
   height: 26rem;
   margin: 1rem;
-
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,6 @@
 }
 
 .image {
-  margin-bottom: 2rem;
   width: 6rem;
   height: 6rem;
   display: flex;
