@@ -12,7 +12,7 @@ const createMapOptions = {
       { invert_lightness: true },
       { saturation: 100 },
       { lightness: 50 },
-      { gamma: 0.5 },
+      { gamma: 0.55 },
       { hue: '#EA7A16' }
     ]
   }]

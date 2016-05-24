@@ -35,4 +35,4 @@ As a User Experience Designer, you have a passion for solving UX challenges and 
 
 * Experience in Agile and UX development environment will be an added advantage
 * Experience with Balsamiq and/or Axure and Adobe Creative Suite, E.g. Photoshop, will be an added advantage
-* Frontend development/web development technologies such as HTML/HTML5, CSS, JavaScript, and Responsive Web Design will be an added advantage.
+* Frontend development/web development technologies such as HTML/HTML5, CSS, JavaScript, and Responsive Web Design will be an added advantage
