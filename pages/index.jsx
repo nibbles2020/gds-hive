@@ -23,7 +23,7 @@ export default () =>
             <div className={styles['mission-wrapper']}>
               <img src={require('./svg/mission2.svg')} className={styles['mission-icon']}></img>
               <p className={styles['mission-text']}>
-                Develop 'build' tech capabilities in software engineering, design, and data science
+                Develop tech capabilities in software engineering, design, and data science
               </p>
             </div>
             <div className={styles['mission-wrapper']}>

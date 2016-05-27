@@ -3,19 +3,145 @@ import styles from './contactSection.scss';
 import GoogleMap from 'google-map-react';
 import { config } from 'config';
 
+const Pin = () => <img src={require('./svg/pin.svg')}/>;
+
 const createMapOptions = {
   scrollwheel: false,
   styles: [{
-    featureType: 'all',
-    elementType: 'all',
-    stylers: [
-      { invert_lightness: true },
-      { saturation: 100 },
-      { lightness: 50 },
-      { gamma: 0.55 },
-      { hue: '#EA7A16' }
-    ]
-  }]
+            "stylers": [
+              {
+                "hue": "#000000"
+              },
+              {
+                "saturation": -100
+              },
+              {
+                "lightness": -60
+              }
+            ]
+          },
+          {
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#ffffff"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "stylers": [
+              {
+                "color": "#FED00F"
+              }
+            ]
+          },
+          {
+            "featureType": "road",
+            "stylers": [
+              {
+                "color": "#FED00F"
+              },
+              {}
+            ]
+          },
+            {
+              "featureType": "road",
+              "elementType": "labels",
+              "stylers": [
+                {
+                  "visibility": "off"
+                },
+                {}
+              ]
+            },
+          {
+            "featureType": "road.local",
+            "stylers": [
+              {
+                "color": "#FED00F"
+              },
+              {
+                "lightness": 6
+              },
+              {
+                "weight": "2"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "stylers": [
+              {
+                "color": "#FED00F"
+              },
+              {
+                "lightness": -25
+              }
+            ]
+          },
+          {
+            "featureType": "road.arterial",
+            "stylers": [
+              {
+                "color": "#FED00F"
+              },
+              {
+                "lightness": -10
+              }
+            ]
+          },
+          {
+            "featureType": "transit",
+            "stylers": [
+              {
+                "color": "#FED00F"
+              },
+              {
+                "lightness": 70
+              }
+            ]
+          },
+          {
+            "featureType": "transit.line",
+            "stylers": [
+              {
+                "color": "#FED00F"
+              },
+              {
+                "lightness": 90
+              }
+            ]
+          },
+          {
+            "featureType": "administrative.country",
+            "elementType": "labels",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.station",
+            "elementType": "labels.text.stroke",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.station",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#ffffff"
+              }
+            ]
+          }
+          ]
+
 };
 
 export default () =>
@@ -25,8 +151,9 @@ export default () =>
         <GoogleMap
           options={createMapOptions}
           defaultCenter={{ lat: 1.3, lng: 103.789228 }}
-          defaultZoom={18}
-        />
+          defaultZoom={18}>
+          <Pin lat={1.29991} lng={103.7892}/>
+        </GoogleMap>
       </div>
 
       <div className={styles.details}>
