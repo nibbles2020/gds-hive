@@ -17,7 +17,7 @@ export default () =>
             <div className={styles['mission-wrapper']}>
               <img src={require('./svg/mission1.svg')} className={styles['mission-icon']}></img>
               <p className={styles['mission-text']}>
-                Deliver innovative and well-designed digital solutions for our citizens
+                Deliver well-designed and innovative digital solutions for our citizens
               </p>
             </div>
             <div className={styles['mission-wrapper']}>
