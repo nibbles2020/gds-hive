@@ -4,7 +4,6 @@ import GoogleMap from 'google-map-react';
 import { config } from 'config';
 
 const Pin = () => <img src={require('./svg/pin.svg')}/>;
-
 const createMapOptions = {
   scrollwheel: false,
   styles: [{
@@ -144,6 +143,7 @@ const createMapOptions = {
 
 };
 
+
 export default () =>
   (
     <div className={styles['contact-us-container']}>
@@ -155,6 +155,8 @@ export default () =>
           <Pin lat={1.29991} lng={103.7892}/>
         </GoogleMap>
       </div>
+
+      <div className={styles['static-map']}> </div>
 
       <div className={styles.details}>
         <div>

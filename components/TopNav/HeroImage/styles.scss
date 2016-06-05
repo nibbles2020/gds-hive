@@ -41,7 +41,7 @@
 .gdsbackground {
   align-items: center;
   background-size: cover !important; /* need !important for Chrome (thanks Chrome) */
-  background: url("components/TopNav/HeroImage/Rectangle.jpg") no-repeat center center fixed;
+  background: url("components/TopNav/HeroImage/background.jpg") no-repeat center center fixed;
   display: flex;
   flex-direction: column;
 }
@@ -53,15 +53,38 @@
   overflow: hidden;
 }
 
+.gradient {
+  position: absolute;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, #fed00f, #f4892d, #8c6ab3, #f4892d, #fed00f);
+  background-size: 800% 800%;
+  animation: cycle 80s ease infinite;
+}
+
+@keyframes cycle {
+  0%{background-position:0% 54%}
+  50%{background-position:100% 47%}
+  100%{background-position:0% 54%}
+}
+
 .nav {
-  width: 90%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.logo {
+  height: 3.5rem;
+  width: 3.5rem;
+  z-index: 100;
+}
+
 .links {
   display: flex;
+  z-index: 100;
 }
 
 .link {
@@ -76,11 +99,24 @@
   text-transform: uppercase;
   user-select: none;
   text-decoration: none;
+
+  &:last-child {
+    padding-right: 0;
+  }
 }
 
-.logo {
-  height: 4rem;
-  width: 4rem;
+.copyright {
+  color: $color-white;
+  right: -105px;
+  bottom: 170px;
+  position: absolute;
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  z-index: 100;
 }
 
 .current {
