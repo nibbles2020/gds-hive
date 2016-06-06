@@ -3,7 +3,7 @@ import styles from './contactSection.scss';
 import GoogleMap from 'google-map-react';
 import { config } from 'config';
 
-const Pin = () => <img src={require('./svg/pin.svg')}/>;
+const Pin = () => <img src={require('./svg/pin.svg')} style={{display: 'none'}}/>;
 const createMapOptions = {
   scrollwheel: false,
   styles: [{
@@ -151,12 +151,12 @@ export default () =>
         <GoogleMap
           options={createMapOptions}
           defaultCenter={{ lat: 1.3, lng: 103.789228 }}
-          defaultZoom={18}>
+          defaultZoom={18}
+          yesIWantToUseGoogleMapApiInternals
+          onGoogleApiLoaded={()=> console.log('ready')}>
           <Pin lat={1.29991} lng={103.7892}/>
         </GoogleMap>
       </div>
-
-      <div className={styles['static-map']}> </div>
 
       <div className={styles.details}>
         <div>

@@ -49,13 +49,6 @@
   flex: 1;
   height: 60vh;
   min-height: 50rem;
-}
-
-.static-map {
-  min-width: 60vw;
-  height: 60vh;
-  min-height: 50rem;
-  flex-grow: 1;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("components/ContactSection/svg/google-map-static.png");

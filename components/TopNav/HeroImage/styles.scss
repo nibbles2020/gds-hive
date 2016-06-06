@@ -107,12 +107,12 @@
 
 .copyright {
   color: $color-white;
-  right: -105px;
+  right: -85px;
   bottom: 170px;
   position: absolute;
   font-family: 'Oswald', Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   transform: rotate(-90deg);
@@ -127,5 +127,27 @@
   /* Subtract the applied-twice margin */
   &:hover {
     margin: 0 0 0.7rem;
+  }
+}
+
+.scroll-indicator {
+  animation: bounce 2s infinite;
+  animation-delay: 5s;
+  z-index: 100;
+  width: 3.8rem;
+  height: 3.8rem;
+  background-image: url("components/TopNav/HeroImage/svg/arrow.svg");
+  background-size: contain;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
   }
 }
