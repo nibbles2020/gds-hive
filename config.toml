@@ -3,8 +3,8 @@ linkPrefix = "/gds-hive"
 resumeMailAddress = "hiring@ida-gds.com"
 
 [[navLinks]]
-href = "/jobs/"
-title = "Jobs"
+href = "/careers/"
+title = "Careers"
 
 [[navLinks]]
 href = "https://medium.com/singapore-gds/"

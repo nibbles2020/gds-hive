@@ -12,12 +12,12 @@ import styles from '../index.scss';
 export default (props) => {
   const jobsList = props.route.pages
     .filter((page) => access(page, 'file.ext') === 'md')
-    .filter((page) => page.path.includes('/jobs/'))
+    .filter((page) => page.path.includes('/careers/'))
     .map((page) =>
         <GalleryItem
           key={prefixLink(page.path)}
           path={prefixLink(page.path)}
-          imgPath={prefixLink(`/jobs/icons/${page.data.thumbnail}`)}
+          imgPath={prefixLink(`/careers/icons/${page.data.thumbnail}`)}
           caption={page.data.title}
           synopsis={page.data.synopsis}
         />
