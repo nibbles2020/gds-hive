@@ -9,7 +9,7 @@ const Html = (props) => {
   if (props.title) {
     title = props.title;
   }
-  const css = process.env.NODE_ENV === 'production' && <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />;
+  // const css = process.env.NODE_ENV === 'production' && <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />;
 
   return (
     <html lang="en">
@@ -24,9 +24,9 @@ const Html = (props) => {
         <link rel="stylesheet" type="text/css" href={prefixLink('/styles.css')} />
         { /* css */ }
         <link href="//fonts.googleapis.com/css?family=Catamaran:500" rel="stylesheet" type="text/css" />
-        <link href='//fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css' />
-        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css' />
-        <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css' />
+        <link href="//fonts.googleapis.com/css?family=Quattrocento+Sans:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css" />
       </head>
 
       <body className="landing-page">

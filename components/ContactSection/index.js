@@ -158,6 +158,10 @@ export default class ContactUs extends React.Component {
             options={createMapOptions}
             defaultCenter={ContactUs.mapCenter}
             defaultZoom={18}
+            bootstrapURLKeys={{
+              key: 'AIzaSyAkAZ7IqWyC3QWM4zKNFGtfCMfMlPt5aeg',
+              language: 'en'
+            }}
             yesIWantToUseGoogleMapApiInternals
             onGoogleApiLoaded={(() => this.setState({showPin: true})).bind(this)} >
             <Pin lat={1.29991} lng={103.7892} showPin={this.state.showPin}/>

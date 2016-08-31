@@ -1,33 +1,7 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 exports.modifyWebpackConfig = function (config, env) {
-  config.removeLoader('png');
-  config.removeLoader('jpg');
-  config.removeLoader('svg');
   config.removeLoader('sass');
-
-  // console.log(config);
-
-  config.loader('png', function (cfg) {
-    cfg.test = /\.png$/;
-    cfg.exclude = /node_modules/;
-    cfg.loader = 'url?limit=10000';
-    return cfg;
-  });
-
-  config.loader('jpg', function (cfg) {
-    cfg.test = /\.jpg$/;
-    cfg.exclude = /node_modules/;
-    cfg.loader = 'url?limit=10000';
-    return cfg;
-  });
-
-  config.loader('svg', function (cfg) {
-    cfg.test = /\.svg$/;
-    cfg.exclude = /node_modules/;
-    cfg.loader = 'url?limit=10000';
-    return cfg;
-  });
 
   const sassLoaders = {
     develop: 'style!css?modules&localIdentName=[path][name]-[local]-[hash:base64:5]&importLoaders=1!postcss'
