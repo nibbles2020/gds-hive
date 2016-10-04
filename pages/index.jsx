@@ -54,8 +54,8 @@ export default () =>
               'devicon-amazonwebservices-original',
               'hadoop',
               'devicon-python-plain',
-              'devicon-dotnet',
-              'devicon-rust'
+              'devicon-dot-net-plain',
+              'rust'
             ]}
           />
         </div>
