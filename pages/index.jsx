@@ -53,7 +53,9 @@ export default () =>
               'devicon-angularjs-plain',
               'devicon-amazonwebservices-original',
               'hadoop',
-              'devicon-python-plain'
+              'devicon-python-plain',
+              'devicon-dotnet',
+              'devicon-rust'
             ]}
           />
         </div>
