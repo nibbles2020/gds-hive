@@ -20,16 +20,16 @@ const Html = (props) => {
     ga('send', 'pageview');`;
 
   const themeColor = '#f4892d';
-  
+
   return (
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="user-scalable=no width=device-width, initial-scale=1.0 maximum-scale=1.0" />
-        <meta name="theme-color" content={themeColor}>
-        <meta name="msapplication-navbutton-color" content={themeColor}>
-        <meta name="apple-mobile-web-app-status-bar-style" content={themeColor}>
+        <meta name="theme-color" content={themeColor} />
+        <meta name="msapplication-navbutton-color" content={themeColor} />
+        <meta name="apple-mobile-web-app-status-bar-style" content={themeColor} />
         <title>{props.title || 'Singapore Government Digital Services'}</title>
         {/* favicon will work for production, and not in dev */}
         <link href={favicon} rel="icon" type="image/x-icon" />
