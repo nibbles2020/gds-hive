@@ -53,6 +53,16 @@
   overflow: hidden;
 }
 
+.halfsize {
+  width: 100%;
+  overflow: hidden;
+  background:
+    linear-gradient(rgba(244, 137, 45, 0.9), rgba(244, 137, 45, 0.9)),
+    url("components/TopNav/HeroImage/background.jpg") no-repeat center center fixed;
+  background-size: cover, cover !important;
+  animation: cycle-hybrid 80s ease infinite;
+}
+
 .gradient {
   position: absolute;
   opacity: 0.9;
