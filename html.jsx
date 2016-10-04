@@ -19,7 +19,7 @@ const Html = (props) => {
     ga('create', 'UA-85059701-1', 'auto');
     ga('send', 'pageview');`;
 
-  const themeColor = '#f4892d';
+  const themeColor = '#fed00f';
 
   return (
     <html lang="en">
