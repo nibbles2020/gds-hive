@@ -41,14 +41,14 @@ from `~/gds-hive/public` (which is the default deploy location for the Ansible P
 ```yml
 version: "2.0"
 services:
-site:
-  image: nginx:mainline
-  volumes:
-    - ~/gds-hive/public:/usr/share/nginx/html:ro
-  networks:
-    - nginx
-  ports:
-    - "80:80"
+  site:
+    image: nginx:mainline
+    volumes:
+      - ~/gds-hive/public:/usr/share/nginx/html:ro
+    networks:
+      - nginx
+    ports:
+      - "80:80"
 ```
 
 Then, you can use the `deploy/site.yml` Ansible Playbook to deploy static assets. The playbook was written with
