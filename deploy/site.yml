@@ -1,0 +1,65 @@
+---
+- name: Deploy GDS-Hive landing page static assets
+  hosts: tag_GDSHive_Yes
+  vars:
+    deploy_path: "/home/{{ ansible_user_id }}/gds-hive/public"
+    local_path: "{{ playbook_dir }}/../public"
+    compose_directory: "{{ playbook_dir }}/../"
+    compose_files:
+      - "docker-compose.yml"
+      - "deploy/docker-compose.build.yml"
+    build_container_name: " gdshive_builder"
+  tasks:
+    - name: Build static assets
+      docker_service:
+        project_src: "{{ compose_directory }}"
+        files: "{{ compose_files }}"
+        state: "{{ item }}"
+      with_items:
+        - absent
+        - present
+      delegate_to: localhost
+      register: compose_debug
+    - name: "`docker-compose` debug"
+      debug:
+        var: compose_debug
+        verbosity: 1
+    - name: Monitor Build Progress
+      shell:
+        cmd: "docker logs -f {{ build_container_name }}"
+      args:
+        warn: False
+      delegate_to: localhost
+      register: build_progress
+    - name: "Static assets building debug"
+      debug:
+        var: build_progress
+        verbosity: 1
+    - name: "Check status code of build container"
+      shell:
+        # Escaping {{ --  http://stackoverflow.com/a/32283447/602002
+        cmd: "docker inspect --format '{{ '{{' }}.State.ExitCode}}' {{ build_container_name }}"
+      args:
+        warn: False
+      delegate_to: localhost
+      register: return_code
+      failed_when: "return_code.stdout != '0'"
+    - name: "Return Code Debug"
+      debug:
+        var: return_code
+        verbosity: 1
+    - name: "Remove Container"
+      docker_service:
+        project_src: "{{ compose_directory }}"
+        files: "{{ compose_files }}"
+        state: "absent"
+      delegate_to: localhost
+    - name: "Make/Check Remote Deploy Path"
+      file:
+        path: "{{ deploy_path }}"
+        state: directory
+    - name: "Copy files"
+      copy:
+        dest: "{{ deploy_path }}/"
+        follow: yes
+        src: "{{ local_path }}/"
