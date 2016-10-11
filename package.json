@@ -11,6 +11,7 @@
     "deploy": "gatsby build && gh-pages -d public",
     "dev": "gatsby develop",
     "build": "gatsby build",
+    "serve": "gatsby serve-build",
     "lint": "eslint --ext=js --ext=jsx .",
     "lint-fix": "eslint --fix --ext=js --ext=jsx ."
   },
