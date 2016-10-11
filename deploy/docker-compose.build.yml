@@ -1,7 +1,6 @@
 version: "2.0"
 services:
   gds-hive:
-    build: .
     container_name: gdshive_builder
     volumes:
       - ./public:/usr/src/app/public
