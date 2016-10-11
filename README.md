@@ -45,8 +45,6 @@ services:
     image: nginx:mainline
     volumes:
       - ~/gds-hive/public:/usr/share/nginx/html:ro
-    networks:
-      - nginx
     ports:
       - "80:80"
 ```
