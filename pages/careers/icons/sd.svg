@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 1.000000)" stroke="#444" stroke-linejoin="round">
+            <path d="M19.0635,8.4062 C19.0635,3.3752 14.3125,0.5002 9.9995,0.5002 C4.6405,0.5002 0.4995,4.7032 0.4995,10.0622 C0.4995,13.1052 1.4995,15.9612 4.4995,17.7402 L4.4995,23.5002 L14.4995,23.5002 L14.4995,20.0232 C16.4995,20.0342 17.5175,19.8892 18.2185,19.1872 C19.1175,18.2892 19.0315,14.5002 19.0315,14.5002 C19.0315,14.5002 19.8845,14.5322 20.5295,14.5062 C20.7535,14.4962 20.9765,14.3832 21.1045,14.1992 C21.2335,14.0152 21.1925,13.7932 21.2095,13.5692 C21.3245,11.9632 19.0635,9.2072 19.0635,8.4062 L19.0635,8.4062 Z" id="Stroke-2478"></path>
+            <polygon id="Stroke-2479" points="7.5 9.5 5.5 9.5 5.5 6.5 7.5 6.5"></polygon>
+            <polygon id="Stroke-2480" points="9.5 14.5 7.5 14.5 7.5 11.5 9.5 11.5"></polygon>
+            <polygon id="Stroke-2481" points="15.5 9.5 13.5 9.5 13.5 6.5 15.5 6.5"></polygon>
+            <path d="M9.5,6 L9.5,10" id="Stroke-2482"></path>
+            <path d="M11.5,6 L11.5,10" id="Stroke-2483"></path>
+            <path d="M5.5,11 L5.5,15" id="Stroke-2484"></path>
+            <path d="M11.5,11 L11.5,15" id="Stroke-2485"></path>
+            <path d="M13.5,11 L13.5,15" id="Stroke-2486"></path>
+            <path d="M15.5,11 L15.5,15" id="Stroke-2487"></path>
+        </g>
+        <g id="Text" transform="translate(-335.000000, -2013.000000)"></g>
+    </g>
+</svg>

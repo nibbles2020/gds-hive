@@ -1,6 +1,7 @@
 title = "Government Digital Services, Singapore"
 linkPrefix = "/gds-hive"
 resumeMailAddress = "hiring@gds-gov.tech"
+careersUrl = "https://govtech.taleo.net/careersection/govtech_external/jobsearch.ftl"
 
 [[navLinks]]
 href = "/careers/"

@@ -3,8 +3,8 @@ title: Software Quality Engineer
 schedule: Full-time
 status: Permanent
 order: 0
-thumbnail: 'qe.svg'
-synopsis: You improve software quality by assessing the quality of products and refining the software development process.
+thumbnail: 'sqe.svg'
+synopsis: Improve software quality by implementing automated testing and robust test infrastructure
 ---
 
 The Government Digital Services (GDS) Team aims to spearhead the digital transformation of government.

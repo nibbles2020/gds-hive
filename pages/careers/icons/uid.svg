@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#444" stroke-linejoin="round">
+            <path d="M23.5,21.5 C23.5,22.604 22.605,23.5 21.5,23.5 L2.5,23.5 C1.396,23.5 0.5,22.604 0.5,21.5 L0.5,2.5 C0.5,1.396 1.396,0.5 2.5,0.5 L21.5,0.5 C22.605,0.5 23.5,1.396 23.5,2.5 L23.5,21.5 L23.5,21.5 Z" id="Stroke-7193" stroke-linecap="round"></path>
+            <path d="M0.5,5.5 L23.5,5.5" id="Stroke-7194" stroke-linecap="round"></path>
+            <path d="M4.5,3 C4.5,3.276 4.276,3.5 4,3.5 C3.724,3.5 3.5,3.276 3.5,3 C3.5,2.724 3.724,2.5 4,2.5 C4.276,2.5 4.5,2.724 4.5,3 L4.5,3 Z" id="Stroke-7195" stroke-linecap="round"></path>
+            <path d="M7.5,3 C7.5,3.276 7.276,3.5 7,3.5 C6.724,3.5 6.5,3.276 6.5,3 C6.5,2.724 6.724,2.5 7,2.5 C7.276,2.5 7.5,2.724 7.5,3 L7.5,3 Z" id="Stroke-7196" stroke-linecap="round"></path>
+            <path d="M10.5,3 C10.5,3.276 10.276,3.5 10,3.5 C9.724,3.5 9.5,3.276 9.5,3 C9.5,2.724 9.724,2.5 10,2.5 C10.276,2.5 10.5,2.724 10.5,3 L10.5,3 Z" id="Stroke-7197" stroke-linecap="round"></path>
+            <polygon id="Stroke-7198" stroke-linecap="round" points="6.5 8.5 3.5 8.5 3.5 20.5 6.5 20.5"></polygon>
+            <path d="M3.5,11.5 L6.5,11.5" id="Stroke-7199" stroke-linecap="round"></path>
+            <path d="M3.5,14.5 L6.5,14.5" id="Stroke-7200" stroke-linecap="round"></path>
+            <path d="M3.5,17.5 L6.5,17.5" id="Stroke-7201" stroke-linecap="round"></path>
+            <polygon id="Stroke-7202" points="14.5 15.5 16 15.5 17.188 16.5 20.5 16.5 20.5 20.5 14.5 20.5"></polygon>
+            <path d="M10.9844,14.0312 L18.0204,10.0412" id="Stroke-7203" stroke-linecap="round"></path>
+            <path d="M20,9.5 C20,10.052 19.552,10.5 19,10.5 C18.448,10.5 18,10.052 18,9.5 C18,8.948 18.448,8.5 19,8.5 C19.552,8.5 20,8.948 20,9.5 L20,9.5 Z" id="Stroke-7204" stroke-linecap="round"></path>
+            <path d="M11,14.5 C11,15.052 10.552,15.5 10,15.5 C9.448,15.5 9,15.052 9,14.5 C9,13.948 9.448,13.5 10,13.5 C10.552,13.5 11,13.948 11,14.5 L11,14.5 Z" id="Stroke-7205" stroke-linecap="round"></path>
+        </g>
+        <g id="Text" transform="translate(-47.000000, -190.000000)"></g>
+    </g>
+</svg>

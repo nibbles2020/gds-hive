@@ -9,9 +9,16 @@ import { config } from 'config';
 export default (props) => (
   <div className={globals.page}>
     <div>{props.children}</div>
-    <a className={styles.contact} href={`mailto:${config.resumeMailAddress}`}>
-      Interested? Drop us a message at {config.resumeMailAddress}.
-    </a>
+    <div className={styles.contact}>
+      <a href={`mailto:${config.resumeMailAddress}`}>
+        Drop us a line
+      </a>
+      &nbsp; or find out what &nbsp;
+      <a href={config.careersUrl}  target="_blank">
+        opportunities
+      </a>
+      &nbsp; are available now.
+    </div>
   </div>
 );
 
