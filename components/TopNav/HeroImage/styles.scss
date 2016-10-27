@@ -68,15 +68,8 @@
 
 .halfsize {
   width: 100%;
-  //height: 450px;
   overflow: hidden;
-  //background: url("components/TopNav/HeroImage/test.jpg") no-repeat center center fixed;
-  background: url("components/TopNav/HeroImage/test.jpg") no-repeat center center fixed / cover;
-  //background-repeat: no-repeat;
-  //background-attachment: fixed;
-  //-webkit-background-size: cover !important;
-  //background-size: cover !important;
-  //background-position: center center;
+  background: url("components/TopNav/HeroImage/careersbanner.jpg") no-repeat center center fixed / cover;
   min-height: 450px;
 
   &::before {
