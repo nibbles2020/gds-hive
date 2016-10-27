@@ -36,10 +36,9 @@ const Html = (props) => {
         <link rel="stylesheet" href="//cdn.rawgit.com/konpa/devicon/master/devicon.min.css" />
         <link rel="stylesheet" type="text/css" href={prefixLink('/styles.css')} />
         { /* css */ }
-        <link href="//fonts.googleapis.com/css?family=Catamaran:500" rel="stylesheet" type="text/css" />
         <link href="//fonts.googleapis.com/css?family=Quattrocento+Sans:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" />
         <script dangerouslySetInnerHTML={{ __html: googleAnalaytics }} />
       </head>
 

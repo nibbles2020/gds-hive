@@ -51,16 +51,46 @@
   /* IE11 fixes for horizontal width being larger than viewport width */
   width: 100%;
   overflow: hidden;
+
+  &::before {
+    content: "";
+    position: relative;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+
+    -webkit-box-shadow: 0px 0px 50px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 0px 50px rgba(0,0,0,.9);
+    box-shadow: 0px 0px 50px rgba(0,0,0,.9);
+  }
 }
 
 .halfsize {
   width: 100%;
+  //height: 450px;
   overflow: hidden;
-  background:
-    linear-gradient(rgba(244, 137, 45, 0.9), rgba(244, 137, 45, 0.9)),
-    url("components/TopNav/HeroImage/background.jpg") no-repeat center center fixed;
-  background-size: cover, cover !important;
-  animation: cycle-hybrid 80s ease infinite;
+  //background: url("components/TopNav/HeroImage/test.jpg") no-repeat center center fixed;
+  background: url("components/TopNav/HeroImage/test.jpg") no-repeat center center fixed / cover;
+  //background-repeat: no-repeat;
+  //background-attachment: fixed;
+  //-webkit-background-size: cover !important;
+  //background-size: cover !important;
+  //background-position: center center;
+  min-height: 450px;
+
+  &::before {
+    content: "";
+    position: relative;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+
+    -webkit-box-shadow: 0px 0px 50px rgba(0,0,0,.6);
+    -moz-box-shadow: 0px 0px 50px rgba(0,0,0,.6);
+    box-shadow: 0px 0px 50px rgba(0,0,0,.6);
+  }
 }
 
 .gradient {
@@ -84,6 +114,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  top: -20px;
 }
 
 .logo {
@@ -113,6 +145,15 @@
   &:last-child {
     padding-right: 0;
   }
+}
+
+.blurb {
+  font-family: 'Dosis';
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  margin-top: 220px;
 }
 
 .copyright {
@@ -159,5 +200,15 @@
   }
   60% {
     transform: translateY(-15px);
+  }
+}
+
+@media only screen
+and (max-device-width : 768px) {
+  .halfsize {
+    background-attachment: scroll;
+  }
+  .blurb {
+    font-size: 1.8rem;
   }
 }

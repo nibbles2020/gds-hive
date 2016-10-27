@@ -57,6 +57,14 @@ export const HeroImage = ({ pathname, links, fullsize }) => {
     <div className={`${styles.gdsbackground} ${fullsize ? styles.fullsize : styles.halfsize}`}>
       {renderLinks}
       {fullsize ? <LogoSVG /> : ''}
+      {fullsize ?
+        ''
+        :
+        <span className={styles.blurb}>
+          Dream big. Get things done. Have fun.<br />
+          If you can do all these, we want to work with you.
+        </span>
+      }
       {fullsize ? <span className={styles.copyright}> Ⓒ Government Digital Services, Singapore</span> : ''}
       {fullsize ? <div className={styles['scroll-indicator']}></div> : ''}
       <div className={`${styles.gradient} ${fullsize ? styles.fullsize : ''}`}></div>

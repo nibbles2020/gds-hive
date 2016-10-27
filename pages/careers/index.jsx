@@ -26,7 +26,7 @@ export default (props) => {
   return (
     <DocumentTitle title={config.title}>
       <div className={styles.section}>
-        <h1 className={styles.header}>Careers</h1>
+        <h1 className={styles.header}>Roles in our team</h1>
         <GalleryContainer>{jobsList}</GalleryContainer>
       </div>
     </DocumentTitle>

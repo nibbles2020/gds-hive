@@ -24,7 +24,7 @@ exports.modifyWebpackConfig = function (config, env) {
       require('postcss-import')(),
       require('postcss-url')(),
       require('postcss-cssnext')({
-        browsers: 'last 2 versions'
+        browsers: 'last 4 versions'
       })
     ],
     devtool: env !== 'development' ? null : 'cheap-module-inline-source-map',
