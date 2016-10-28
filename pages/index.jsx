@@ -12,7 +12,7 @@ export default () =>
     <DocumentTitle title={config.title}>
       <div>
         <div className={`${styles.section} ${globals.page}`}>
-          <h1 className={styles.header}> Mission </h1>
+          <h1 className={styles.header}> Our mission </h1>
           <div className={styles['mission-container']}>
             <div className={styles['mission-wrapper']}>
               <img src={require('./svg/mission1.svg')} className={styles['mission-icon']}></img>
@@ -35,7 +35,7 @@ export default () =>
           </div>
         </div>
         <div className={`${styles.section} ${globals.page} ${variables.bggray}`}>
-          <h1 className={styles.header}> Technology </h1>
+          <h1 className={styles.header}> Technology we use </h1>
           <TechSection
             icons={[
               'devicon-react-original',

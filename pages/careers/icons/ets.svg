@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 1.000000)" stroke="#444" stroke-linejoin="round">
+            <polyline id="Stroke-5288" points="17 1.5 21.5 1.5 21.5 22.5 13 22.5"></polyline>
+            <polyline id="Stroke-5289" points="10.5 24 10.5 18.5 6.5 18.5 6.5 12.5 9.5 12.5 9.5 7.5 12.5 7.5 12.5 0.5"></polyline>
+            <polyline id="Stroke-5290" stroke-linecap="round" points="9.5 3.5 12.5 0.5 15.469 3.5"></polyline>
+            <path d="M3.5,1.5 L3.5,7" id="Stroke-5291"></path>
+            <polyline id="Stroke-5292" points="0.5 9.5 6.5 9.5 6.5 5"></polyline>
+            <polyline id="Stroke-5293" points="8 15.5 13.5 15.5 13.5 20"></polyline>
+            <polyline id="Stroke-5294" points="3.5 12 3.5 20.5 7.5 20.5 7.5 22.5 0.5 22.5 0.5 1.5 8 1.5"></polyline>
+            <polyline id="Stroke-5295" points="16.5 22.5 16.5 13.5 19 13.5"></polyline>
+            <path d="M21.5,19.5 L19,19.5" id="Stroke-5296"></path>
+            <path d="M21.5,16.5 L19,16.5" id="Stroke-5297"></path>
+            <polyline id="Stroke-5298" points="21.5 10.5 12.5 10.5 12.5 13"></polyline>
+            <polyline id="Stroke-5299" points="15.5 10.5 15.5 5.5 18.5 5.5 18.5 8"></polyline>
+        </g>
+        <g id="Text" transform="translate(-790.000000, -622.000000)"></g>
+    </g>
+</svg>

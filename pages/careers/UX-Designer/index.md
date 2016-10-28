@@ -4,7 +4,7 @@ schedule: Full-time
 status: Permanent
 order: 0
 thumbnail: 'uxd.svg'
-synopsis: You have a passion for solving UX challenges and ability to distil complex issues into useful and effective design solutions for citizens.
+synopsis: Distill complex issues into useful and effective design solutions
 ---
 
 The Government Digital Services (GDS) Team aims to spearhead the digital transformation of government.

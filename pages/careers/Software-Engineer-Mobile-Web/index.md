@@ -1,10 +1,10 @@
 ---
-title: Software Engineer (Mobile & Web)
+title: Software Developer
 schedule: Full-time
 status: Permanent
 order: 0
-thumbnail: 'dev.svg'
-synopsis: You write high quality and maintainable code that satisfies customer through early and continuous delivery of working software.
+thumbnail: 'sd.svg'
+synopsis: Write high quality and maintainable code for early and continuous delivery of working software
 ---
 
 The Government Digital Services (GDS) Team aims to spearhead the digital transformation of government.

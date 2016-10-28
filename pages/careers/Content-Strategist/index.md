@@ -4,7 +4,7 @@ schedule: Full-time
 status: Permanent
 order: 0
 thumbnail: 'cstr.svg'
-synopsis: You enhance the experience of digital products by maximising the impact of content.
+synopsis: Enhance the digital experience by maximising the impact of content
 ---
 
 The Government Digital Services (GDS) Team aims to spearhead the digital transformation of government.

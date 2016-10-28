@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#444" stroke-linejoin="round">
+            <polygon id="Stroke-415" stroke-linecap="round" points="7.8027 9.125 2.1467 3.469 4.9747 0.641 10.6317 6.297"></polygon>
+            <polygon id="Stroke-416" stroke-linecap="round" points="14.873 16.1973 20.531 21.8533 23.359 19.0253 17.702 13.3693"></polygon>
+            <path d="M17.7021,6.2969 C16.5311,5.1249 14.6311,5.1249 13.4601,6.2969 L7.8031,11.9549 L12.0451,16.1969 L17.7021,10.5389 C18.8731,9.3689 18.8731,7.4689 17.7021,6.2969 L17.7021,6.2969 Z" id="Stroke-417" stroke-linecap="round"></path>
+            <path d="M9.9238,14.0752 C8.3618,12.5132 5.8278,12.5132 4.2678,14.0752 L9.9238,19.7322 C11.4858,18.1702 11.4858,15.6372 9.9238,14.0752 L9.9238,14.0752 Z" id="Stroke-418" stroke-linecap="round"></path>
+            <path d="M1.5254,17.5254 C0.1584,18.8914 0.1584,21.1074 1.5254,22.4744 C2.8904,23.8414 5.1074,23.8414 6.4744,22.4744" id="Stroke-419" stroke-linecap="round"></path>
+            <path d="M3.4141,18.5254 C2.8281,19.1114 2.8281,20.0604 3.4141,20.6464 C4.0001,21.2324 4.9491,21.2324 5.5351,20.6464" id="Stroke-420" stroke-linecap="round"></path>
+            <path d="M9.2168,7.7109 L10.6318,9.1249" id="Stroke-421" stroke-linecap="round"></path>
+            <path d="M14.873,13.3691 L16.287,14.7831" id="Stroke-422" stroke-linecap="round"></path>
+            <path d="M17.7021,6.2969 L19.4721,4.5279" id="Stroke-423" stroke-linecap="round"></path>
+            <path d="M20.3242,4.1758 C20.3242,4.4518 20.1002,4.6758 19.8242,4.6758 C19.5482,4.6758 19.3242,4.4518 19.3242,4.1758 C19.3242,3.8998 19.5482,3.6758 19.8242,3.6758 C20.1002,3.6758 20.3242,3.8998 20.3242,4.1758 L20.3242,4.1758 Z" id="Stroke-424"></path>
+        </g>
+        <g id="Text" transform="translate(-791.000000, -1917.000000)"></g>
+    </g>
+</svg>
