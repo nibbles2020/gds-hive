@@ -47,7 +47,7 @@ export const HeroImage = ({ pathname, links, fullsize }) => {
           </g>
         </svg>
       </Link>
-      <span className={styles.alpha}>alpha</span>
+      <span className={styles.alpha}>αlpha</span>
       <div className={styles.links}>
         {links.map((l) => createLink(l, pathname))}
       </div>
