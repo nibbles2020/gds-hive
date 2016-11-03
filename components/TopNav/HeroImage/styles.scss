@@ -47,7 +47,8 @@
 }
 
 .fullsize {
-  min-height: 100vh;
+  min-height: 50rem;
+  height: 100vh;
   /* IE11 fixes for horizontal width being larger than viewport width */
   width: 100%;
   overflow: hidden;
@@ -55,10 +56,10 @@
   &::before {
     content: "";
     position: relative;
-    top: -20px;
+    top: -34px;
     left: 0;
     width: 100%;
-    height: 20px;
+    height: 34px;
 
     -webkit-box-shadow: 0px 0px 50px rgba(0,0,0,.9);
     -moz-box-shadow: 0px 0px 50px rgba(0,0,0,.9);
@@ -151,16 +152,14 @@
 
 .copyright {
   color: $color-white;
-  right: -85px;
-  bottom: 170px;
-  position: absolute;
   font-family: 'Oswald', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  transform: rotate(-90deg);
+  transform: rotate(-90deg) translateX(11rem) translateY(8rem);
   z-index: 100;
+  align-self: flex-end;
 }
 
 .current {
@@ -178,10 +177,9 @@
   animation: bounce 2s infinite;
   animation-delay: 5s;
   z-index: 100;
-  width: 3.8rem;
-  height: 3.8rem;
-  background-image: url("components/TopNav/HeroImage/svg/arrow.svg");
-  background-size: contain;
+  width: 4.2rem;
+  height: 4.2rem;
+  background: url("components/TopNav/HeroImage/svg/arrow.svg") center no-repeat;
 }
 
 .alpha {

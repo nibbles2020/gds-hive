@@ -67,8 +67,9 @@ export const HeroImage = ({ pathname, links, fullsize }) => {
         </span>
       }
       {fullsize ? <span className={styles.copyright}> Ⓒ Government Digital Services, Singapore</span> : ''}
-      {fullsize ? <div className={styles['scroll-indicator']}></div> : ''}
+      {fullsize ? <a className={styles['scroll-indicator']} href="#content-anchor"></a> : ''}
       <div className={`${styles.gradient} ${fullsize ? styles.fullsize : ''}`}></div>
+      <a id="content-anchor"></a>
     </div>
   );
 };
