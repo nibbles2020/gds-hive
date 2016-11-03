@@ -11,6 +11,9 @@ export default () =>
   (
     <DocumentTitle title={config.title}>
       <div>
+        <div className={`${styles.section} ${variables.bggray}`}>
+          <p>🚧 This page is currently in alpha 👷‍♂️</p>
+        </div>
         <div className={`${styles.section} ${globals.page}`}>
           <h1 className={styles.header}> Our mission </h1>
           <div className={styles['mission-container']}>
