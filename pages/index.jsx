@@ -4,6 +4,7 @@ import { config } from 'config';
 import DocumentTitle from 'react-document-title';
 import TechSection from 'components/TechSection';
 import ContactSection from 'components/ContactSection';
+import MediumSection from 'components/MediumSection';
 import variables from '../scss/variables.scss';
 import globals from '../scss/globals.scss';
 
@@ -58,6 +59,7 @@ export default () =>
               'rust'
             ]}
           />
+          <MediumSection name="yyy" title="kkk"/>
         </div>
         <ContactSection />
       </div>
