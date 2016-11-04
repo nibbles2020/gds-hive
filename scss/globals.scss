@@ -17,14 +17,13 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 400;
 }
 
 a {
   color: inherit;
-  text-decoration: underline;
-  text-decoration-color: $color-flair;
+  text-decoration: none;
 }
 
 /* IE 11 fix for contact section */

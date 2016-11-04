@@ -171,8 +171,7 @@ export default class ContactUs extends React.Component {
         <div className={styles.details}>
           <div>
             <a href={`mailto:${config.resumeMailAddress}`}>{config.resumeMailAddress}</a><br />
-            <a
-              href="//www.gov.sg/sgdi/ministries/mci/statutory-boards/ida/departments/gciw/departments/gds">Directory</a>
+            <a href={config.directoryUrl}>Directory</a>
           </div>
 
           <div className={styles.address}>
@@ -180,6 +179,7 @@ export default class ContactUs extends React.Component {
             Sandcrawler<br />
             1 Fusionopolis View<br />
             Singapore 138577
+            {/*<br /><a href={config.mapsUrl}>View on Google Maps</a>*/}
           </div>
 
           <ul className={styles['unindent-list']}>
@@ -192,9 +192,9 @@ export default class ContactUs extends React.Component {
           </ul>
 
           <div>
-            <a href="https://github.com/idagds/">Github</a><br />
+            <a href={config.githubUrl}>Github</a><br />
             {/* <a href="https://www.linkedin.com/company/ida-singapore">LinkedIn</a><br /> */}
-            <a href="https://medium.com/singapore-gds/">Medium</a>
+            <a href={config.blogUrl}>Medium</a>
           </div>
         </div>
       </div>

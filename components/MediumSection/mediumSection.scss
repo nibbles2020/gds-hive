@@ -1,0 +1,90 @@
+@import "../../scss/variables.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 960px;
+}
+
+.read-more {
+  line-height: 5rem;
+  font-style: italic;
+  font-size: 1.6rem;
+}
+
+.article {
+  color: $color-body-text;
+  font-size: 2.2rem;
+  width: calc((100 / 3)% - 3rem);
+  margin: 1.5rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width: 200px;
+
+  .image-wrapper {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+
+    .preview {
+      flex: 1;
+      height: 15rem;
+
+      background-size: cover;
+      background-position: center center;
+    }
+  }
+
+  .title {
+    font-weight: 300;
+  }
+
+  .subtitle {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+  }
+}
+
+.article:first-child {
+  flex-direction: row;
+  min-width: 100%;
+  display: flex;
+
+  .image-wrapper {
+    min-width: 480px;
+    width: calc((200 / 3)% - 3rem);
+    background-size: cover;
+    background-position: center center;
+    margin-right: 3rem;
+    flex: 100;
+
+    .preview {
+      height: 40rem;
+    }
+  }
+
+  .title-wrapper {
+    flex: 1;
+    min-width: 33%;
+  }
+}
+
+.visit-blog {
+  margin: 4rem auto 0;
+}
+
+.pill {
+  padding: 1em 1.6em;
+  border: .15em solid $color-flair;
+  border-radius: 2em;
+
+  &:hover {
+    background-color: $color-flair;
+  }
+
+  &:active {
+    background-color: $color-white;
+  }
+}

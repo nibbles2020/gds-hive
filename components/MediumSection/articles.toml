@@ -1,0 +1,23 @@
+[[articles]]
+title = "When are the best times to hit the gym?"
+subtitle = "Just how crowded is each gym over the course of the week? Using data provided by Sport Singapore, we calculated the average occupancy of each gym over one-hour periods to create a visualisation."
+url = "https://blog.data.gov.sg/when-are-the-best-times-to-hit-the-gym-9ca01616d26f"
+image = "https://cdn-images-1.medium.com/max/1200/1*4GT9bum8a2oKwBkB8bPNiw.png"
+
+[[articles]]
+title = "Designing a Textual Interface"
+subtitle = "Applying Jakob Nielsen’s usability heuristics to textual interfaces"
+url = "https://blog.gds-gov.tech/designing-a-textual-interface-a96c96b8277f"
+image = "https://cdn-images-1.medium.com/max/400/1*qDTA9cE30pq-Hl5jJ1Gfdw.png"
+
+[[articles]]
+title = "govBuy: How to co-create with Government Digital Services"
+subtitle = "What if we could buy microservices, software libraries, non-critical bug fixes or even customised hardware from citizens?"
+url = "https://blog.gds-gov.tech/govbuy-how-government-can-buy-software-quickly-35475d4e9eab"
+image = "https://cdn-images-1.medium.com/max/400/1*htrcW2SyOpLbSmTgRZ9ozg.gif"
+
+[[articles]]
+title = "React + Rails for Business Grants Portal"
+subtitle = "Using a virtual DOM to build complex forms"
+url = "https://blog.gds-gov.tech/react-rails-for-business-grants-portal-ae1f72b44c3"
+image = "https://cdn-images-1.medium.com/max/800/1*n8NC7Kypsj2nle1KAaPTsw.gif"

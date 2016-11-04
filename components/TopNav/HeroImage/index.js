@@ -31,7 +31,7 @@ export const HeroImage = ({ pathname, links, fullsize }) => {
     <div className={styles.nav}>
       <Link to="/" className={styles.logo}>
         <svg className={styles.logo} viewBox="0 0 300 340" version="1.1">
-          <g stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
+          <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
             <g transform="translate(-574.000000, -166.000000)">
               <g transform="translate(577.000000, 170.000000)" fill="#fff" strokeWidth="2.1">
                 <path className={styles.path} d="M203.870484,33.8134395 L203.858901,33.8134395 L203.858901,33.8126651 C203.858901,29.5386488 200.403848,26.0739 196.141021,26.0739 C191.877421,26.0739 188.423141,29.5386488 188.423141,33.8126651 L181.203364,298.272747 L181.21572,298.272747 C181.216492,304.544763 186.283233,309.625723 192.536924,309.625723 C198.791387,309.625723 203.858128,304.544763 203.858901,298.272747 L203.870484,298.272747 L203.870484,33.8134395"></path>

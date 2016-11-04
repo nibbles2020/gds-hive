@@ -3,6 +3,7 @@ import styles from './index.scss';
 import { config } from 'config';
 import DocumentTitle from 'react-document-title';
 import TechSection from 'components/TechSection';
+import MediumSection from 'components/MediumSection';
 import ContactSection from 'components/ContactSection';
 import variables from '../scss/variables.scss';
 import globals from '../scss/globals.scss';
@@ -12,7 +13,7 @@ export default () =>
     <DocumentTitle title={config.title}>
       <div>
         <div className={`${styles.section} ${variables.bggray}`}>
-          <p>🚧 This page is currently in alpha 👷‍♂️</p>
+          <p>🚧 This site is currently in alpha 👷‍️</p>
         </div>
         <div className={`${styles.section} ${globals.page}`}>
           <h1 className={styles.header}> Our mission </h1>
@@ -37,8 +38,14 @@ export default () =>
             </div>
           </div>
         </div>
+
         <div className={`${styles.section} ${globals.page} ${variables.bggray}`}>
-          <h1 className={styles.header}> Technology we use </h1>
+          <h1 className={styles.header}>How we think, work & play</h1>
+          <MediumSection />
+        </div>
+
+        <div className={`${styles.section} ${globals.page}`}>
+          <h1 className={styles.header}>Technology we use</h1>
           <TechSection
             icons={[
               'devicon-react-original',

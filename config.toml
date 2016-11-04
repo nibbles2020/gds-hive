@@ -2,6 +2,10 @@ title = "Government Digital Services, Singapore"
 linkPrefix = "/gds-hive"
 resumeMailAddress = "hiring@gds-gov.tech"
 careersUrl = "https://govtech.taleo.net/careersection/govtech_external/jobsearch.ftl?KEYWORD=gds"
+blogUrl = "https://blog.gds-gov.tech/"
+githubUrl = "https://github.com/govtechsg/"
+directoryUrl = "https://www.gov.sg/sgdi/ministries/mci/departments/govtech/departments/gciw/departments/gds"
+mapsUrl = "https://goo.gl/maps/okFpU2onuFJ2"
 
 [[navLinks]]
 href = "/careers/"
@@ -10,4 +14,4 @@ title = "Careers"
 [[navLinks]]
 href = "https://blog.gds-gov.tech/"
 title = "Blog"
-external=true
+external = true

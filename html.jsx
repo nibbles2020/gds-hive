@@ -4,12 +4,8 @@ import { prefixLink } from 'gatsby-helpers';
 import favicon from 'pages/favicon.png';
 
 const Html = (props) => {
-  let title;
-  title = DocumentTitle.rewind();
-  if (props.title) {
-    title = props.title;
-  }
-  // const css = process.env.NODE_ENV === 'production' && <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />;
+  const title = DocumentTitle.rewind() || props.title;
+
   const googleAnalaytics = `
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -17,9 +13,10 @@ const Html = (props) => {
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-85059701-1', 'auto');
-    ga('send', 'pageview');`;
+    ga('send', 'pageview');
+  `;
 
-  const themeColor = '#fed00f';
+  const themeColor = '#444';
 
   return (
     <html lang="en">
