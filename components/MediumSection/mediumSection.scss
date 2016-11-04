@@ -53,7 +53,7 @@
   display: flex;
 
   .image-wrapper {
-    min-width: 480px;
+    min-width: 220px;
     width: calc((200 / 3)% - 3rem);
     background-size: cover;
     background-position: center center;
@@ -72,6 +72,8 @@
 }
 
 .visit-blog {
+  width: 100%;
+  text-align: center;
   margin: 4rem auto 0;
 }
 

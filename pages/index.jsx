@@ -13,7 +13,7 @@ export default () =>
     <DocumentTitle title={config.title}>
       <div>
         <div className={`${styles.section} ${variables.bggray}`}>
-          <p>🚧 This site is currently in alpha 👷‍️</p>
+          <p>🚧 This site is currently in alpha 👷</p>
         </div>
         <div className={`${styles.section} ${globals.page}`}>
           <h1 className={styles.header}> Our mission </h1>
