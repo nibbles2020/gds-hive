@@ -157,7 +157,7 @@
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  transform: rotate(-90deg) translateX(11rem) translateY(8rem);
+  transform: rotate(-90deg) translateX(11rem) translateY(9rem);
   z-index: 100;
   align-self: flex-end;
 }
@@ -174,8 +174,9 @@
 }
 
 .scroll-indicator {
-  animation: bounce 2s infinite;
-  animation-delay: 5s;
+  /* Animation causes poor performance */
+  /* animation: bounce 2s infinite; */
+  /* animation-delay: 5s; */
   z-index: 100;
   width: 4.2rem;
   height: 4.2rem;
