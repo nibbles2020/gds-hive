@@ -4,83 +4,84 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 960px;
+  width: 96rem;
 }
 
 .read-more {
-  line-height: 5rem;
-  font-style: italic;
   font-size: 1.6rem;
+  font-style: italic;
+  line-height: 5rem;
 }
 
 .article {
   color: $color-body-text;
-  font-size: 2.2rem;
-  width: calc((100 / 3)% - 3rem);
-  margin: 1.5rem;
   flex-direction: column;
   flex-wrap: wrap;
-  min-width: 200px;
+  flex: 1;
+  font-size: 2.2rem;
+  padding: 1.5rem;
 
   .image-wrapper {
     display: flex;
-    flex: 1;
     flex-wrap: wrap;
+    flex: 1;
     margin-bottom: 1.5rem;
 
     .preview {
+      background-position: center center;
+      background-size: cover;
       flex: 1;
       height: 15rem;
-
-      background-size: cover;
-      background-position: center center;
     }
   }
 
-  .title {
-    font-weight: 300;
-  }
+  .description {
+    min-width: 24rem;
 
-  .subtitle {
-    margin-top: 1rem;
-    font-size: 1.6rem;
+    .title {
+      font-weight: 300;
+    }
+
+    .subtitle {
+      font-size: 1.6rem;
+      margin-top: 1rem;
+    }
   }
 }
 
 .article:first-child {
-  flex-direction: row;
-  min-width: 100%;
   display: flex;
+  flex-direction: row;
+  min-width: calc(100% - $page-padding);
 
   .image-wrapper {
-    min-width: 220px;
-    width: calc((200 / 3)% - 3rem);
-    background-size: cover;
     background-position: center center;
+    background-size: cover;
+    flex: 2.1;
     margin-right: 3rem;
-    flex: 100;
+    max-width: 100%;
+    min-width: 26rem;
 
     .preview {
       height: 40rem;
     }
   }
 
-  .title-wrapper {
+  .description {
     flex: 1;
-    min-width: 33%;
   }
 }
 
 .visit-blog {
-  width: 100%;
-  text-align: center;
   margin: 4rem auto 0;
+  text-align: center;
+  width: 100%;
 }
 
 .pill {
-  padding: 1em 1.6em;
-  border: .15em solid $color-flair;
   border-radius: 2em;
+  border: .15em solid $color-flair;
+  padding: 1em 1.6em;
 
   &:hover {
     background-color: $color-flair;

@@ -9,15 +9,19 @@ const MediumArticle = ({ url, title, subtitle, image }) => (
       <a href={url} style={{ backgroundImage: `url(${image})` }} className={styles.preview}></a>
     </div>
 
-    <div className={styles['title-wrapper']}>
-      <a href={url} className={styles.title}>
-        {title}
-      </a>
-      <div className={styles.subtitle}>
-        {subtitle}
-      </div>
-      <a className={styles['read-more']} href={url}>
-        read more ↪
+    <div className={styles.description}>
+      <a href={url}>
+        <span className={styles.title}>
+          {title}
+        </span>
+
+        <div className={styles.subtitle}>
+          {subtitle}
+        </div>
+
+        <span className={styles['read-more']}>
+          read more ↪
+        </span>
       </a>
     </div>
   </div>
