@@ -1,6 +1,8 @@
+@import "typography.scss";
+
 $page-padding: 5rem;
-$font-size: 16px;
-$line-height: 1.6;
+$font-size: $m;
+$line-height: $l-line-height;
 $max-page-width: 1200px;
 $break-point: 992px;
 
@@ -10,6 +12,8 @@ $color-flair: #fed00f;
 $color-gray: #efefef;
 $color-dark-gray: #5a5a5a;
 $color-white: #eee;
+$color-pure-white: #fff;
+$color-pure-black: #000;
 
 .bggray {
   background-color: $color-gray;

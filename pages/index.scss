@@ -1,14 +1,14 @@
 @import "../scss/variables.scss";
 
 .header {
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: $l;
+  font-weight: $regular;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: .2rem;
   color: $color-body-text;
   width: 100%;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 2rem;
 
   &::after {
     display: block;
@@ -34,7 +34,6 @@
 }
 
 .mission-icon {
-  //max-height: 40vh;
   min-width: 25rem;
   width: 15vw;
 }
@@ -43,7 +42,7 @@
   width: 25rem;
   min-width: 20rem;
   margin: auto;
-  font-size: 2rem;
+  font-size: $m;
   color: $color-body-text;
 }
 

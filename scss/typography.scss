@@ -1,0 +1,21 @@
+$font-display: "Dosis", "Impact", sans-serif;
+$font-body: "Oswald", "Helvetica", "Arial", sans-serif;
+
+$font-scale: 1.1;
+
+$xxl: calc($font-scale * 5.063)rem;
+$xl: calc($font-scale * 3.375)rem;
+$l: calc($font-scale * 2.25)rem;
+$m: calc($font-scale * 1.5)rem;
+$s: calc($font-scale * 1)rem;
+$xs: calc($font-scale * 0.667)rem;
+$xxs: calc($font-scale * 0.444)rem;
+$xxxs: calc($font-scale * 0.296)rem;
+
+$l-line-height: 1.6;
+$m-line-height: 1.45;
+$s-line-height: 1.2;
+
+$bold: 700;
+$regular: 400;
+$light: 300;

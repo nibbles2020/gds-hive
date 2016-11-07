@@ -61,9 +61,10 @@
     width: 100%;
     height: 34px;
 
-    -webkit-box-shadow: 0px 0px 50px rgba(0,0,0,.9);
-    -moz-box-shadow: 0px 0px 50px rgba(0,0,0,.9);
-    box-shadow: 0px 0px 50px rgba(0,0,0,.9);
+    $shadow: rgba(0, 0, 0, .9);
+    -webkit-box-shadow: 0 0 50px $shadow;
+    -moz-box-shadow: 0 0 50px $shadow;
+    box-shadow: 0 0 50px $shadow;
   }
 }
 
@@ -81,9 +82,10 @@
     width: 100%;
     height: 20px;
 
-    -webkit-box-shadow: 0px 0px 50px rgba(0,0,0,.6);
-    -moz-box-shadow: 0px 0px 50px rgba(0,0,0,.6);
-    box-shadow: 0px 0px 50px rgba(0,0,0,.6);
+    $shadow: rgba(0, 0, 0, .6);
+    -webkit-box-shadow: 0 0 50px $shadow;
+    -moz-box-shadow: 0 0 50px $shadow;
+    box-shadow: 0 0 50px $shadow;
   }
 }
 
@@ -98,9 +100,17 @@
 }
 
 @keyframes cycle {
-  0%{background-position:0% 54%}
-  50%{background-position:100% 47%}
-  100%{background-position:0% 54%}
+  0% {
+    background-position: 0% 54%;
+  }
+
+  50% {
+    background-position: 100% 47%;
+  }
+
+  100% {
+    background-position: 0% 54%;
+  }
 }
 
 .nav {
@@ -125,10 +135,11 @@
 
 .link {
   composes: dotted-hover;
+
   color: $color-white;
-  font-family: 'Oswald', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 1.8rem;
+  font-family: $font-body;
+  font-weight: $light;
+  font-size: $m;
   letter-spacing: 0.1rem;
   margin: 0 0 1.9rem;
   padding: calc(1.5rem + 7px) 3.5rem 0;
@@ -142,22 +153,23 @@
 }
 
 .blurb {
-  font-family: 'Dosis';
-  font-size: 3rem;
-  font-weight: 500;
+  font-family: $font-display;
+  font-size: $l;
+  font-weight: $regular;
   text-align: center;
-  color: white;
+  color: $color-pure-white;
   margin-top: 220px;
 }
 
 .copyright {
+  $size: $m;
   color: $color-white;
-  font-family: 'Oswald', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 1.2rem;
+  font-family: $font-body;
+  font-weight: $light;
+  font-size: $size;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  transform: rotate(-90deg) translateX(11rem) translateY(9rem);
+  transform: rotate(-90deg) translateX(calc($size * 10)) translateY(calc($size * 7));
   z-index: 100;
   align-self: flex-end;
 }
@@ -166,17 +178,17 @@
   composes: dotted;
   margin: 0;
 
-  /* Hack around having two classes for applying the dotted css */
-  /* Subtract the applied-twice margin */
+  // Hack around having two classes for applying the dotted css
+  // Subtract the applied-twice margin
   &:hover {
     margin: 0 0 0.7rem;
   }
 }
 
 .scroll-indicator {
-  /* Animation causes poor performance */
-  /* animation: bounce 2s infinite; */
-  /* animation-delay: 5s; */
+  // Animation causes poor performance
+  // animation: bounce 2s infinite;
+  // animation-delay: 5s;
   z-index: 100;
   width: 4.2rem;
   height: 4.2rem;
@@ -185,10 +197,10 @@
 
 .alpha {
   z-index: 100;
-  color: #fff;
+  color: $color-pure-white;
   padding: .2rem 1.5rem;
   border-radius: 1.5rem;
-  font-family: "Oswald";
+  font-family: $font-body;
   text-transform: uppercase;
   letter-spacing: .25rem;
   font-size: 1.2rem;
@@ -199,9 +211,11 @@
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-30px);
   }
+
   60% {
     transform: translateY(-15px);
   }
@@ -212,6 +226,7 @@ and (max-device-width : 768px) {
   .halfsize {
     background-attachment: scroll;
   }
+
   .blurb {
     font-size: 1.8rem;
   }
