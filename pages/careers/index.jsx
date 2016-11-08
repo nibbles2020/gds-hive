@@ -32,9 +32,3 @@ export default (props) => {
     </DocumentTitle>
   );
 };
-
-// Jobs.propTypes = {
-//   route: React.PropTypes.object
-// };
-
-// export default Jobs;

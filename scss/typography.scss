@@ -1,5 +1,6 @@
 $font-display: "Dosis", "Impact", sans-serif;
-$font-body: "Oswald", "Helvetica", "Arial", sans-serif;
+$font-header: "Oswald", "Helvetica", "Arial", sans-serif;
+$font-body: "Quattrocento Sans", Arial, sans-serif;
 
 $font-scale: 1.1;
 
@@ -15,7 +16,42 @@ $xxxs: calc($font-scale * 0.296)rem;
 $l-line-height: 1.6;
 $m-line-height: 1.45;
 $s-line-height: 1.2;
+$xs-line-height: 1;
 
 $bold: 700;
 $regular: 400;
 $light: 300;
+
+h1 {
+  font-size: $xxl;
+}
+
+h2 {
+  font-size: $xl;
+}
+
+h3 {
+  font-size: $l;
+}
+
+h4 {
+  font-size: $m;
+}
+
+h5 {
+  font-size: $s;
+}
+
+h6 {
+  font-size: xs;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-header;
+  font-weight: $bold;
+}

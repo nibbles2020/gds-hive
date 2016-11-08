@@ -37,10 +37,6 @@
   .description {
     min-width: 24rem;
 
-    .title {
-      line-height: $s-line-height;
-    }
-
     .subtitle {
       font-size: $m;
       margin-top: 1rem;
@@ -77,16 +73,6 @@
   width: 100%;
 }
 
-.pill {
-  border-radius: 2em;
-  border: .15em solid $color-flair;
-  padding: 1em 1.6em;
-
-  &:hover {
-    background-color: $color-flair;
-  }
-
-  &:active {
-    background-color: $color-white;
-  }
+.visit-blog-link {
+  composes: pill from "../../scss/globals.scss";
 }

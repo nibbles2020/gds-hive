@@ -2,11 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 112rem;
   flex-flow: row wrap;
 }
 
 .contact {
+  align-items: center;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 3rem auto 0;
 }

@@ -3,7 +3,7 @@
 .wrapper {
   background-color: $color-gray;
   color: $color-body-text;
-  padding: 5rem 3.4rem;
+  padding: 4rem 3rem;
   width: 28rem;
   height: 22rem;
   margin: 1rem;
@@ -23,10 +23,6 @@
 
   .synopsis {
     width: 100%;
-  }
-
-  &:hover {
-    background-color: $color-flair;
   }
 }
 
