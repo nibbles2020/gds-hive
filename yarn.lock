@@ -6616,7 +6616,7 @@ to-fast-properties@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-1.0.2.tgz#f3f5c0c3ba7299a7ef99427e44633257ade43320"
 
-toml-loader, toml-loader@^1.0.0:
+toml-loader@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toml-loader/-/toml-loader-1.0.0.tgz#05249b9294b623601148260caa480b22a653a19a"
   dependencies:
