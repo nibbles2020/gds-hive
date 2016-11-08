@@ -4,7 +4,7 @@ GDS Hive landing page.
 
 ## Install
 
-    npm install
+    yarn install
 
 ## Develop
 
