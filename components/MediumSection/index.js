@@ -39,7 +39,7 @@ const MediumSection = () =>
     {articles.map(MediumArticle)}
 
     <div className={styles['visit-blog']}>
-      <a href={config.blogUrl} className={styles.pill}>visit blog</a>
+      <a href={config.blogUrl} className={styles['visit-blog-link']}>visit blog</a>
     </div>
   </div>;
 

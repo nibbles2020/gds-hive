@@ -3,7 +3,7 @@
 .wrapper {
   background-color: $color-gray;
   color: $color-body-text;
-  padding: 5rem 3.4rem;
+  padding: 4rem 3rem;
   width: 28rem;
   height: 22rem;
   margin: 1rem;
@@ -16,17 +16,13 @@
   overflow: hidden;
 
   .title {
-    font-weight: 600;
+    font-weight: $black;
     font-size: large;
     width: 100%;
   }
 
   .synopsis {
     width: 100%;
-  }
-
-  &:hover {
-    background-color: $color-flair;
   }
 }
 

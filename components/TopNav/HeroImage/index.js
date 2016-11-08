@@ -46,8 +46,10 @@ export const HeroImage = ({ pathname, links, fullsize }) => {
             </g>
           </g>
         </svg>
+
+        <span className={styles.alpha}>alpha</span>
       </Link>
-      <span className={styles.alpha}>alpha</span>
+
       <div className={styles.links}>
         {links.map((l) => createLink(l, pathname))}
       </div>
@@ -66,7 +68,7 @@ export const HeroImage = ({ pathname, links, fullsize }) => {
           If you can do all these, we want to work with you.
         </span>
       }
-      {fullsize ? <span className={styles.copyright}> Ⓒ Government Digital Services, Singapore</span> : ''}
+      {fullsize ? <span className={styles.blurb}>We use technology to make life better for Singaporeans<br />Government Digital Services, Singapore</span> : ''}
       {fullsize ? <a className={styles['scroll-indicator']} href="#content-anchor"></a> : ''}
       <div className={`${styles.gradient} ${fullsize ? styles.fullsize : ''}`}></div>
       <a id="content-anchor"></a>
