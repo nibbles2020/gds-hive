@@ -3,6 +3,7 @@ import styles from './index.scss';
 import { config } from 'config';
 import DocumentTitle from 'react-document-title';
 import TechSection from 'components/TechSection';
+import ProjectSection from 'components/ProjectSection';
 import MediumSection from 'components/MediumSection';
 import ContactSection from 'components/ContactSection';
 import variables from '../scss/variables.scss';
@@ -12,10 +13,10 @@ export default () =>
   (
     <DocumentTitle title={config.title}>
       <div>
-        <div className={`${styles.section} ${variables.bggray}`}>
+        <div className={`${styles.section}`}>
           <p>🚧 This site is currently in alpha 👷</p>
         </div>
-        <div className={`${styles.section} ${globals.page}`}>
+        <div className={`${styles.section} ${globals.page} ${variables.bggray}`}>
           <h1 className={styles.header}> Our mission </h1>
           <div className={styles['mission-container']}>
             <div className={styles['mission-wrapper']}>
@@ -37,6 +38,11 @@ export default () =>
               </p>
             </div>
           </div>
+        </div>
+
+        <div className={`${styles.section} ${globals.page}`}>
+          <h1 className={styles.header}>What we’ve built</h1>
+          <ProjectSection />
         </div>
 
         <div className={`${styles.section} ${globals.page} ${variables.bggray}`}>
