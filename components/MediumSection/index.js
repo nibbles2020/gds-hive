@@ -6,7 +6,7 @@ import { config } from 'config';
 const MediumArticle = ({ url, title, subtitle, image }) => (
   <div className={styles.article} key={url}>
     <div className={styles['image-wrapper']}>
-      <a href={url} style={{ backgroundImage: `url(${image})` }} className={styles.preview}></a>
+      <a href={url} style={{ backgroundImage: `url(${require(image)})` }} className={styles.preview}></a>
     </div>
 
     <div className={styles.description}>

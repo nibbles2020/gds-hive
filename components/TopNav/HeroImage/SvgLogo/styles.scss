@@ -41,6 +41,7 @@
   }
 
   50% {
+    shape-rendering: optimizeSpeed;
     stroke-dasharray: 350;
     stroke-dashoffset: 200;
   }
