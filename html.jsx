@@ -16,6 +16,18 @@ const Html = (props) => {
     ga('send', 'pageview');
   `;
 
+  const pingdomLoadSpeed = `
+    var _prum = [['id', '582282fc73cf626b6023ff60'],
+                 ['mark', 'firstbyte', (new Date()).getTime()]];
+    (function() {
+        var s = document.getElementsByTagName('script')[0]
+          , p = document.createElement('script');
+        p.async = 'async';
+        p.src = '//rum-static.pingdom.net/prum.min.js';
+        s.parentNode.insertBefore(p, s);
+    })();
+  `;
+
   const themeColor = '#444';
 
   return (
@@ -37,6 +49,7 @@ const Html = (props) => {
         <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" />
         <script dangerouslySetInnerHTML={{ __html: googleAnalaytics }} />
+        <script dangerouslySetInnerHTML={{ __html: pingdomLoadSpeed }} />
       </head>
 
       <body className="landing-page">
