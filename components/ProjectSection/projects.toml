@@ -5,7 +5,7 @@ url = "https://www.businessgrants.gov.sg"
 image = "./images/bgp.png"
 
 [[projects]]
-title = "data.gov.sg"
+title = "Data.gov.sg"
 subtitle = "The Singapore government’s one-stop portal to publicly-available datasets from 70 public agencies."
 url = "https://data.gov.sg/"
 image = "./images/data.png"
