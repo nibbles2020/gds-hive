@@ -14,10 +14,10 @@
 }
 
 .project {
-  flex: 1;
-  min-width: 20rem;
-  width: 33%;
-  max-width: 50rem;
+  /* Need a flex-basis for a Safari flexbox bug */
+  /* https://bugs.webkit.org/show_bug.cgi?id=136041 */
+  flex: 0 1 auto;
+  max-width: 25rem;
   padding: 3rem;
   display: flex;
   flex-direction: column;
